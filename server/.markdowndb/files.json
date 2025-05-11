@@ -1,0 +1,5673 @@
+[
+  {
+    "_id": "b83b90b32a90c578469a1ec1f60605846bffbd73",
+    "file_path": "md-sources/root.md",
+    "extension": "md",
+    "url_path": "root",
+    "filetype": null,
+    "metadata": {
+      "tags": [],
+      "tasks": []
+    },
+    "tags": [],
+    "links": [
+      {
+        "from": "root.md",
+        "to": "#platforms",
+        "toRaw": "#platforms",
+        "text": "Platforms",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#programming-languages",
+        "toRaw": "#programming-languages",
+        "text": "Programming Languages",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#front-end-development",
+        "toRaw": "#front-end-development",
+        "text": "Front-End Development",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#back-end-development",
+        "toRaw": "#back-end-development",
+        "text": "Back-End Development",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#computer-science",
+        "toRaw": "#computer-science",
+        "text": "Computer Science",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#big-data",
+        "toRaw": "#big-data",
+        "text": "Big Data",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#theory",
+        "toRaw": "#theory",
+        "text": "Theory",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#books",
+        "toRaw": "#books",
+        "text": "Books",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#editors",
+        "toRaw": "#editors",
+        "text": "Editors",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#gaming",
+        "toRaw": "#gaming",
+        "text": "Gaming",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#development-environment",
+        "toRaw": "#development-environment",
+        "text": "Development Environment",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#entertainment",
+        "toRaw": "#entertainment",
+        "text": "Entertainment",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#databases",
+        "toRaw": "#databases",
+        "text": "Databases",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#media",
+        "toRaw": "#media",
+        "text": "Media",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#learn",
+        "toRaw": "#learn",
+        "text": "Learn",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#security",
+        "toRaw": "#security",
+        "text": "Security",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#content-management-systems",
+        "toRaw": "#content-management-systems",
+        "text": "Content Management Systems",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#hardware",
+        "toRaw": "#hardware",
+        "text": "Hardware",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#business",
+        "toRaw": "#business",
+        "text": "Business",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#work",
+        "toRaw": "#work",
+        "text": "Work",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#networking",
+        "toRaw": "#networking",
+        "text": "Networking",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#decentralized-systems",
+        "toRaw": "#decentralized-systems",
+        "text": "Decentralized Systems",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#health-and-social-science",
+        "toRaw": "#health-and-social-science",
+        "text": "Health and Social Science",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#events",
+        "toRaw": "#events",
+        "text": "Events",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#testing",
+        "toRaw": "#testing",
+        "text": "Testing",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#miscellaneous",
+        "toRaw": "#miscellaneous",
+        "text": "Miscellaneous",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "#related",
+        "toRaw": "#related",
+        "text": "Related",
+        "embed": false,
+        "internal": true
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sindresorhus/awesome-nodejs#readme",
+        "toRaw": "https://github.com/sindresorhus/awesome-nodejs#readme",
+        "text": "Node.js",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/bcoe/awesome-cross-platform-nodejs#readme",
+        "toRaw": "https://github.com/bcoe/awesome-cross-platform-nodejs#readme",
+        "text": "Cross-Platform",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/dypsilon/frontend-dev-bookmarks#readme",
+        "toRaw": "https://github.com/dypsilon/frontend-dev-bookmarks#readme",
+        "text": "Frontend Development",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/vsouza/awesome-ios#readme",
+        "toRaw": "https://github.com/vsouza/awesome-ios#readme",
+        "text": "iOS",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/JStumpp/awesome-android#readme",
+        "toRaw": "https://github.com/JStumpp/awesome-android#readme",
+        "text": "Android",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/weblancaster/awesome-IoT-hybrid#readme",
+        "toRaw": "https://github.com/weblancaster/awesome-IoT-hybrid#readme",
+        "text": "IoT & Hybrid Apps",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sindresorhus/awesome-electron#readme",
+        "toRaw": "https://github.com/sindresorhus/awesome-electron#readme",
+        "text": "Electron",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/busterc/awesome-cordova#readme",
+        "toRaw": "https://github.com/busterc/awesome-cordova#readme",
+        "text": "Cordova",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/jondot/awesome-react-native#readme",
+        "toRaw": "https://github.com/jondot/awesome-react-native#readme",
+        "text": "React Native",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/XamSome/awesome-xamarin#readme",
+        "toRaw": "https://github.com/XamSome/awesome-xamarin#readme",
+        "text": "Xamarin",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/inputsh/awesome-linux#readme",
+        "toRaw": "https://github.com/inputsh/awesome-linux#readme",
+        "text": "Linux",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/Friz-zy/awesome-linux-containers#readme",
+        "toRaw": "https://github.com/Friz-zy/awesome-linux-containers#readme",
+        "text": "Containers",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/zoidbergwill/awesome-ebpf#readme",
+        "toRaw": "https://github.com/zoidbergwill/awesome-ebpf#readme",
+        "text": "eBPF",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/PandaFoss/Awesome-Arch#readme",
+        "toRaw": "https://github.com/PandaFoss/Awesome-Arch#readme",
+        "text": "Arch-based Projects",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/AppImage/awesome-appimage#readme",
+        "toRaw": "https://github.com/AppImage/awesome-appimage#readme",
+        "text": "AppImage",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/agarrharr/awesome-macos-screensavers#readme",
+        "toRaw": "https://github.com/agarrharr/awesome-macos-screensavers#readme",
+        "text": "Screensavers",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/jaywcjlove/awesome-mac#readme",
+        "toRaw": "https://github.com/jaywcjlove/awesome-mac#readme",
+        "text": "Apps",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/serhii-londar/open-source-mac-os-apps#readme",
+        "toRaw": "https://github.com/serhii-londar/open-source-mac-os-apps#readme",
+        "text": "Open Source Apps",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/yenchenlin/awesome-watchos#readme",
+        "toRaw": "https://github.com/yenchenlin/awesome-watchos#readme",
+        "text": "watchOS",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/deephacks/awesome-jvm#readme",
+        "toRaw": "https://github.com/deephacks/awesome-jvm#readme",
+        "text": "JVM",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/mailtoharshit/awesome-salesforce#readme",
+        "toRaw": "https://github.com/mailtoharshit/awesome-salesforce#readme",
+        "text": "Salesforce",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/donnemartin/awesome-aws#readme",
+        "toRaw": "https://github.com/donnemartin/awesome-aws#readme",
+        "text": "Amazon Web Services",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/0pandadev/awesome-windows#readme",
+        "toRaw": "https://github.com/0pandadev/awesome-windows#readme",
+        "text": "Windows",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/hlaueriksson/awesome-powertoys-run-plugins#readme",
+        "toRaw": "https://github.com/hlaueriksson/awesome-powertoys-run-plugins#readme",
+        "text": "PowerToys Run Plugins",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ipfs/awesome-ipfs#readme",
+        "toRaw": "https://github.com/ipfs/awesome-ipfs#readme",
+        "text": "IPFS",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/fuse-compound/awesome-fuse#readme",
+        "toRaw": "https://github.com/fuse-compound/awesome-fuse#readme",
+        "text": "Fuse",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ianstormtaylor/awesome-heroku#readme",
+        "toRaw": "https://github.com/ianstormtaylor/awesome-heroku#readme",
+        "text": "Heroku",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/thibmaek/awesome-raspberry-pi#readme",
+        "toRaw": "https://github.com/thibmaek/awesome-raspberry-pi#readme",
+        "text": "Raspberry Pi",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/JesseTG/awesome-qt#readme",
+        "toRaw": "https://github.com/JesseTG/awesome-qt#readme",
+        "text": "Qt",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/fregante/Awesome-WebExtensions#readme",
+        "toRaw": "https://github.com/fregante/Awesome-WebExtensions#readme",
+        "text": "WebExtensions",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/vitalets/awesome-smart-tv#readme",
+        "toRaw": "https://github.com/vitalets/awesome-smart-tv#readme",
+        "text": "Smart TV",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/Kazhnuz/awesome-gnome#readme",
+        "toRaw": "https://github.com/Kazhnuz/awesome-gnome#readme",
+        "text": "GNOME",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/francoism90/awesome-kde#readme",
+        "toRaw": "https://github.com/francoism90/awesome-kde#readme",
+        "text": "KDE",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/quozd/awesome-dotnet#readme",
+        "toRaw": "https://github.com/quozd/awesome-dotnet#readme",
+        "text": ".NET",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/thangchung/awesome-dotnet-core#readme",
+        "toRaw": "https://github.com/thangchung/awesome-dotnet-core#readme",
+        "text": "Core",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ironcev/awesome-roslyn#readme",
+        "toRaw": "https://github.com/ironcev/awesome-roslyn#readme",
+        "text": "Roslyn",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/miguelmota/awesome-amazon-alexa#readme",
+        "toRaw": "https://github.com/miguelmota/awesome-amazon-alexa#readme",
+        "text": "Amazon Alexa",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/jonleibowitz/awesome-digitalocean#readme",
+        "toRaw": "https://github.com/jonleibowitz/awesome-digitalocean#readme",
+        "text": "DigitalOcean",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/Solido/awesome-flutter#readme",
+        "toRaw": "https://github.com/Solido/awesome-flutter#readme",
+        "text": "Flutter",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/frenck/awesome-home-assistant#readme",
+        "toRaw": "https://github.com/frenck/awesome-home-assistant#readme",
+        "text": "Home Assistant",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/victorshinya/awesome-ibmcloud#readme",
+        "toRaw": "https://github.com/victorshinya/awesome-ibmcloud#readme",
+        "text": "IBM Cloud",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/jthegedus/awesome-firebase#readme",
+        "toRaw": "https://github.com/jthegedus/awesome-firebase#readme",
+        "text": "Firebase",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/fkromer/awesome-ros2#readme",
+        "toRaw": "https://github.com/fkromer/awesome-ros2#readme",
+        "text": "Robot Operating System 2.0",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/adafruit/awesome-adafruitio#readme",
+        "toRaw": "https://github.com/adafruit/awesome-adafruitio#readme",
+        "text": "Adafruit IO",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/irazasyed/awesome-cloudflare#readme",
+        "toRaw": "https://github.com/irazasyed/awesome-cloudflare#readme",
+        "text": "Cloudflare",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ravirupareliya/awesome-actions-on-google#readme",
+        "toRaw": "https://github.com/ravirupareliya/awesome-actions-on-google#readme",
+        "text": "Actions on Google",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/agucova/awesome-esp#readme",
+        "toRaw": "https://github.com/agucova/awesome-esp#readme",
+        "text": "ESP",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/denolib/awesome-deno#readme",
+        "toRaw": "https://github.com/denolib/awesome-deno#readme",
+        "text": "Deno",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/balintkissdev/awesome-dos#readme",
+        "toRaw": "https://github.com/balintkissdev/awesome-dos#readme",
+        "text": "DOS",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/nix-community/awesome-nix#readme",
+        "toRaw": "https://github.com/nix-community/awesome-nix#readme",
+        "text": "Nix",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/stn1slv/awesome-integration#readme",
+        "toRaw": "https://github.com/stn1slv/awesome-integration#readme",
+        "text": "Integration",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/naimo84/awesome-nodered#readme",
+        "toRaw": "https://github.com/naimo84/awesome-nodered#readme",
+        "text": "Node-RED",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/zenitysec/awesome-low-code#readme",
+        "toRaw": "https://github.com/zenitysec/awesome-low-code#readme",
+        "text": "Low Code",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/riderx/awesome-capacitor#readme",
+        "toRaw": "https://github.com/riderx/awesome-capacitor#readme",
+        "text": "Capacitor",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/Esri/awesome-arcgis-developer#readme",
+        "toRaw": "https://github.com/Esri/awesome-arcgis-developer#readme",
+        "text": "ArcGIS Developer",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/dotintent/awesome-ble#readme",
+        "toRaw": "https://github.com/dotintent/awesome-ble#readme",
+        "text": "Bluetooth Low Energy",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/MartinZikmund/awesome-uno-platform#readme",
+        "toRaw": "https://github.com/MartinZikmund/awesome-uno-platform#readme",
+        "text": "Uno Platform",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/GoogleCloudPlatform/awesome-google-cloud#readme",
+        "toRaw": "https://github.com/GoogleCloudPlatform/awesome-google-cloud#readme",
+        "text": "Google Cloud",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sorrycc/awesome-javascript#readme",
+        "toRaw": "https://github.com/sorrycc/awesome-javascript#readme",
+        "text": "JavaScript",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/wbinnssmith/awesome-promises#readme",
+        "toRaw": "https://github.com/wbinnssmith/awesome-promises#readme",
+        "text": "Promises",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/standard/awesome-standard#readme",
+        "toRaw": "https://github.com/standard/awesome-standard#readme",
+        "text": "Standard Style",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/bolshchikov/js-must-watch#readme",
+        "toRaw": "https://github.com/bolshchikov/js-must-watch#readme",
+        "text": "Must Watch Talks",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/loverajoel/jstips#readme",
+        "toRaw": "https://github.com/loverajoel/jstips#readme",
+        "text": "Tips",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/Kikobeats/awesome-network-js#readme",
+        "toRaw": "https://github.com/Kikobeats/awesome-network-js#readme",
+        "text": "Network Layer",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/parro-it/awesome-micro-npm-packages#readme",
+        "toRaw": "https://github.com/parro-it/awesome-micro-npm-packages#readme",
+        "text": "Micro npm Packages",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/feross/awesome-mad-science#readme",
+        "toRaw": "https://github.com/feross/awesome-mad-science#readme",
+        "text": "Mad Science npm Packages",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/maxogden/maintenance-modules#readme",
+        "toRaw": "https://github.com/maxogden/maintenance-modules#readme",
+        "text": "Maintenance Modules",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sindresorhus/awesome-npm#readme",
+        "toRaw": "https://github.com/sindresorhus/awesome-npm#readme",
+        "text": "npm",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/avajs/awesome-ava#readme",
+        "toRaw": "https://github.com/avajs/awesome-ava#readme",
+        "text": "AVA",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/dustinspecker/awesome-eslint#readme",
+        "toRaw": "https://github.com/dustinspecker/awesome-eslint#readme",
+        "text": "ESLint",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/stoeffel/awesome-fp-js#readme",
+        "toRaw": "https://github.com/stoeffel/awesome-fp-js#readme",
+        "text": "Functional Programming",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sindresorhus/awesome-observables#readme",
+        "toRaw": "https://github.com/sindresorhus/awesome-observables#readme",
+        "text": "Observables",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/RyanZim/awesome-npm-scripts#readme",
+        "toRaw": "https://github.com/RyanZim/awesome-npm-scripts#readme",
+        "text": "npm scripts",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/30-seconds/30-seconds-of-code#readme",
+        "toRaw": "https://github.com/30-seconds/30-seconds-of-code#readme",
+        "text": "30 Seconds of Code",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/Richienb/awesome-ponyfills#readme",
+        "toRaw": "https://github.com/Richienb/awesome-ponyfills#readme",
+        "text": "Ponyfills",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/matteocrippa/awesome-swift#readme",
+        "toRaw": "https://github.com/matteocrippa/awesome-swift#readme",
+        "text": "Swift",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/hsavit1/Awesome-Swift-Education#readme",
+        "toRaw": "https://github.com/hsavit1/Awesome-Swift-Education#readme",
+        "text": "Education",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/uraimo/Awesome-Swift-Playgrounds#readme",
+        "toRaw": "https://github.com/uraimo/Awesome-Swift-Playgrounds#readme",
+        "text": "Playgrounds",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/vinta/awesome-python#readme",
+        "toRaw": "https://github.com/vinta/awesome-python#readme",
+        "text": "Python",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/timofurrer/awesome-asyncio#readme",
+        "toRaw": "https://github.com/timofurrer/awesome-asyncio#readme",
+        "text": "Asyncio",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/faroit/awesome-python-scientific-audio#readme",
+        "toRaw": "https://github.com/faroit/awesome-python-scientific-audio#readme",
+        "text": "Scientific Audio",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/adafruit/awesome-circuitpython#readme",
+        "toRaw": "https://github.com/adafruit/awesome-circuitpython#readme",
+        "text": "CircuitPython",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/krzjoa/awesome-python-data-science#readme",
+        "toRaw": "https://github.com/krzjoa/awesome-python-data-science#readme",
+        "text": "Data Science",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/typeddjango/awesome-python-typing#readme",
+        "toRaw": "https://github.com/typeddjango/awesome-python-typing#readme",
+        "text": "Typing",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/mcauser/awesome-micropython#readme",
+        "toRaw": "https://github.com/mcauser/awesome-micropython#readme",
+        "text": "MicroPython",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/rust-unofficial/awesome-rust#readme",
+        "toRaw": "https://github.com/rust-unofficial/awesome-rust#readme",
+        "text": "Rust",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/pest-parser/awesome-pest#readme",
+        "toRaw": "https://github.com/pest-parser/awesome-pest#readme",
+        "text": "Pest",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/krispo/awesome-haskell#readme",
+        "toRaw": "https://github.com/krispo/awesome-haskell#readme",
+        "text": "Haskell",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/passy/awesome-purescript#readme",
+        "toRaw": "https://github.com/passy/awesome-purescript#readme",
+        "text": "PureScript",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/avelino/awesome-go#readme",
+        "toRaw": "https://github.com/avelino/awesome-go#readme",
+        "text": "Go",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/lauris/awesome-scala#readme",
+        "toRaw": "https://github.com/lauris/awesome-scala#readme",
+        "text": "Scala",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/tindzk/awesome-scala-native#readme",
+        "toRaw": "https://github.com/tindzk/awesome-scala-native#readme",
+        "text": "Scala Native",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/markets/awesome-ruby#readme",
+        "toRaw": "https://github.com/markets/awesome-ruby#readme",
+        "text": "Ruby",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/razum2um/awesome-clojure#readme",
+        "toRaw": "https://github.com/razum2um/awesome-clojure#readme",
+        "text": "Clojure",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/hantuzun/awesome-clojurescript#readme",
+        "toRaw": "https://github.com/hantuzun/awesome-clojurescript#readme",
+        "text": "ClojureScript",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/h4cc/awesome-elixir#readme",
+        "toRaw": "https://github.com/h4cc/awesome-elixir#readme",
+        "text": "Elixir",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sporto/awesome-elm#readme",
+        "toRaw": "https://github.com/sporto/awesome-elm#readme",
+        "text": "Elm",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/drobakowski/awesome-erlang#readme",
+        "toRaw": "https://github.com/drobakowski/awesome-erlang#readme",
+        "text": "Erlang",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/svaksha/Julia.jl#readme",
+        "toRaw": "https://github.com/svaksha/Julia.jl#readme",
+        "text": "Julia",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/LewisJEllis/awesome-lua#readme",
+        "toRaw": "https://github.com/LewisJEllis/awesome-lua#readme",
+        "text": "Lua",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/inputsh/awesome-c#readme",
+        "toRaw": "https://github.com/inputsh/awesome-c#readme",
+        "text": "C",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/fffaraz/awesome-cpp#readme",
+        "toRaw": "https://github.com/fffaraz/awesome-cpp#readme",
+        "text": "C/C++",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/qinwf/awesome-R#readme",
+        "toRaw": "https://github.com/qinwf/awesome-R#readme",
+        "text": "R",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/iamericfletcher/awesome-r-learning-resources#readme",
+        "toRaw": "https://github.com/iamericfletcher/awesome-r-learning-resources#readme",
+        "text": "Learning",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/dlang-community/awesome-d#readme",
+        "toRaw": "https://github.com/dlang-community/awesome-d#readme",
+        "text": "D",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/CodyReichert/awesome-cl#readme",
+        "toRaw": "https://github.com/CodyReichert/awesome-cl#readme",
+        "text": "Common Lisp",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/GustavBertram/awesome-common-lisp-learning#readme",
+        "toRaw": "https://github.com/GustavBertram/awesome-common-lisp-learning#readme",
+        "text": "Learning",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/hachiojipm/awesome-perl#readme",
+        "toRaw": "https://github.com/hachiojipm/awesome-perl#readme",
+        "text": "Perl",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/kdabir/awesome-groovy#readme",
+        "toRaw": "https://github.com/kdabir/awesome-groovy#readme",
+        "text": "Groovy",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/yissachar/awesome-dart#readme",
+        "toRaw": "https://github.com/yissachar/awesome-dart#readme",
+        "text": "Dart",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/akullpp/awesome-java#readme",
+        "toRaw": "https://github.com/akullpp/awesome-java#readme",
+        "text": "Java",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/eleventigers/awesome-rxjava#readme",
+        "toRaw": "https://github.com/eleventigers/awesome-rxjava#readme",
+        "text": "RxJava",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/KotlinBy/awesome-kotlin#readme",
+        "toRaw": "https://github.com/KotlinBy/awesome-kotlin#readme",
+        "text": "Kotlin",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ocaml-community/awesome-ocaml#readme",
+        "toRaw": "https://github.com/ocaml-community/awesome-ocaml#readme",
+        "text": "OCaml",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/seancoyne/awesome-coldfusion#readme",
+        "toRaw": "https://github.com/seancoyne/awesome-coldfusion#readme",
+        "text": "ColdFusion",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/rabbiabram/awesome-fortran#readme",
+        "toRaw": "https://github.com/rabbiabram/awesome-fortran#readme",
+        "text": "Fortran",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ziadoz/awesome-php#readme",
+        "toRaw": "https://github.com/ziadoz/awesome-php#readme",
+        "text": "PHP",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/jakoch/awesome-composer#readme",
+        "toRaw": "https://github.com/jakoch/awesome-composer#readme",
+        "text": "Composer",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/Fr0sT-Brutal/awesome-pascal#readme",
+        "toRaw": "https://github.com/Fr0sT-Brutal/awesome-pascal#readme",
+        "text": "Pascal",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ahkscript/awesome-AutoHotkey#readme",
+        "toRaw": "https://github.com/ahkscript/awesome-AutoHotkey#readme",
+        "text": "AutoHotkey",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/J2TeaM/awesome-AutoIt#readme",
+        "toRaw": "https://github.com/J2TeaM/awesome-AutoIt#readme",
+        "text": "AutoIt",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/veelenga/awesome-crystal#readme",
+        "toRaw": "https://github.com/veelenga/awesome-crystal#readme",
+        "text": "Crystal",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sfischer13/awesome-frege#readme",
+        "toRaw": "https://github.com/sfischer13/awesome-frege#readme",
+        "text": "Frege",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/onqtam/awesome-cmake#readme",
+        "toRaw": "https://github.com/onqtam/awesome-cmake#readme",
+        "text": "CMake",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/robinrodricks/awesome-actionscript3#readme",
+        "toRaw": "https://github.com/robinrodricks/awesome-actionscript3#readme",
+        "text": "ActionScript 3",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sfischer13/awesome-eta#readme",
+        "toRaw": "https://github.com/sfischer13/awesome-eta#readme",
+        "text": "Eta",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/joaomilho/awesome-idris#readme",
+        "toRaw": "https://github.com/joaomilho/awesome-idris#readme",
+        "text": "Idris",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ohenley/awesome-ada#readme",
+        "toRaw": "https://github.com/ohenley/awesome-ada#readme",
+        "text": "Ada/SPARK",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ebraminio/awesome-qsharp#readme",
+        "toRaw": "https://github.com/ebraminio/awesome-qsharp#readme",
+        "text": "Q#",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/koolamusic/awesome-imba#readme",
+        "toRaw": "https://github.com/koolamusic/awesome-imba#readme",
+        "text": "Imba",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/desiderantes/awesome-vala#readme",
+        "toRaw": "https://github.com/desiderantes/awesome-vala#readme",
+        "text": "Vala",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/coq-community/awesome-coq#readme",
+        "toRaw": "https://github.com/coq-community/awesome-coq#readme",
+        "text": "Coq",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/vlang/awesome-v#readme",
+        "toRaw": "https://github.com/vlang/awesome-v#readme",
+        "text": "V",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/catdevnull/awesome-zig#readme",
+        "toRaw": "https://github.com/catdevnull/awesome-zig#readme",
+        "text": "Zig",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/MystenLabs/awesome-move#readme",
+        "toRaw": "https://github.com/MystenLabs/awesome-move#readme",
+        "text": "Move",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/angrykoala/awesome-esolangs#readme",
+        "toRaw": "https://github.com/angrykoala/awesome-esolangs#readme",
+        "text": "Esolangs",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/addyosmani/es6-tools#readme",
+        "toRaw": "https://github.com/addyosmani/es6-tools#readme",
+        "text": "ES6 Tools",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/davidsonfellipe/awesome-wpo#readme",
+        "toRaw": "https://github.com/davidsonfellipe/awesome-wpo#readme",
+        "text": "Web Performance Optimization",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/lvwzhen/tools#readme",
+        "toRaw": "https://github.com/lvwzhen/tools#readme",
+        "text": "Web Tools",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/awesome-css-group/awesome-css#readme",
+        "toRaw": "https://github.com/awesome-css-group/awesome-css#readme",
+        "text": "CSS",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/addyosmani/critical-path-css-tools#readme",
+        "toRaw": "https://github.com/addyosmani/critical-path-css-tools#readme",
+        "text": "Critical-Path Tools",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/davidtheclark/scalable-css-reading-list#readme",
+        "toRaw": "https://github.com/davidtheclark/scalable-css-reading-list#readme",
+        "text": "Scalability",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/AllThingsSmitty/must-watch-css#readme",
+        "toRaw": "https://github.com/AllThingsSmitty/must-watch-css#readme",
+        "text": "Must-Watch Talks",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/AllThingsSmitty/css-protips#readme",
+        "toRaw": "https://github.com/AllThingsSmitty/css-protips#readme",
+        "text": "Protips",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/troxler/awesome-css-frameworks#readme",
+        "toRaw": "https://github.com/troxler/awesome-css-frameworks#readme",
+        "text": "Frameworks",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/enaqx/awesome-react#readme",
+        "toRaw": "https://github.com/enaqx/awesome-react#readme",
+        "text": "React",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/expede/awesome-relay#readme",
+        "toRaw": "https://github.com/expede/awesome-relay#readme",
+        "text": "Relay",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/glauberfc/awesome-react-hooks#readme",
+        "toRaw": "https://github.com/glauberfc/awesome-react-hooks#readme",
+        "text": "React Hooks",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/web-padawan/awesome-web-components#readme",
+        "toRaw": "https://github.com/web-padawan/awesome-web-components#readme",
+        "text": "Web Components",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/Granze/awesome-polymer#readme",
+        "toRaw": "https://github.com/Granze/awesome-polymer#readme",
+        "text": "Polymer",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/PatrickJS/awesome-angular#readme",
+        "toRaw": "https://github.com/PatrickJS/awesome-angular#readme",
+        "text": "Angular",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sadcitizen/awesome-backbone#readme",
+        "toRaw": "https://github.com/sadcitizen/awesome-backbone#readme",
+        "text": "Backbone",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/diegocard/awesome-html5#readme",
+        "toRaw": "https://github.com/diegocard/awesome-html5#readme",
+        "text": "HTML5",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/willianjusten/awesome-svg#readme",
+        "toRaw": "https://github.com/willianjusten/awesome-svg#readme",
+        "text": "SVG",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/raphamorim/awesome-canvas#readme",
+        "toRaw": "https://github.com/raphamorim/awesome-canvas#readme",
+        "text": "Canvas",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/dnbard/awesome-knockout#readme",
+        "toRaw": "https://github.com/dnbard/awesome-knockout#readme",
+        "text": "KnockoutJS",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/petk/awesome-dojo#readme",
+        "toRaw": "https://github.com/petk/awesome-dojo#readme",
+        "text": "Dojo Toolkit",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/NoahBuscher/Inspire#readme",
+        "toRaw": "https://github.com/NoahBuscher/Inspire#readme",
+        "text": "Inspiration",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ember-community-russia/awesome-ember#readme",
+        "toRaw": "https://github.com/ember-community-russia/awesome-ember#readme",
+        "text": "Ember",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/wasabeef/awesome-android-ui#readme",
+        "toRaw": "https://github.com/wasabeef/awesome-android-ui#readme",
+        "text": "Android UI",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/cjwirth/awesome-ios-ui#readme",
+        "toRaw": "https://github.com/cjwirth/awesome-ios-ui#readme",
+        "text": "iOS UI",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/Urigo/awesome-meteor#readme",
+        "toRaw": "https://github.com/Urigo/awesome-meteor#readme",
+        "text": "Meteor",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sturobson/BEM-resources#readme",
+        "toRaw": "https://github.com/sturobson/BEM-resources#readme",
+        "text": "BEM",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/afonsopacifer/awesome-flexbox#readme",
+        "toRaw": "https://github.com/afonsopacifer/awesome-flexbox#readme",
+        "text": "Flexbox",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/deanhume/typography#readme",
+        "toRaw": "https://github.com/deanhume/typography#readme",
+        "text": "Web Typography",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/brunopulis/awesome-a11y#readme",
+        "toRaw": "https://github.com/brunopulis/awesome-a11y#readme",
+        "text": "Web Accessibility",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sachin1092/awesome-material#readme",
+        "toRaw": "https://github.com/sachin1092/awesome-material#readme",
+        "text": "Material Design",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/wbkd/awesome-d3#readme",
+        "toRaw": "https://github.com/wbkd/awesome-d3#readme",
+        "text": "D3",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/jonathandion/awesome-emails#readme",
+        "toRaw": "https://github.com/jonathandion/awesome-emails#readme",
+        "text": "Emails",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/petk/awesome-jquery#readme",
+        "toRaw": "https://github.com/petk/awesome-jquery#readme",
+        "text": "jQuery",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/AllThingsSmitty/jquery-tips-everyone-should-know#readme",
+        "toRaw": "https://github.com/AllThingsSmitty/jquery-tips-everyone-should-know#readme",
+        "text": "Tips",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/notthetup/awesome-webaudio#readme",
+        "toRaw": "https://github.com/notthetup/awesome-webaudio#readme",
+        "text": "Web Audio",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/pazguille/offline-first#readme",
+        "toRaw": "https://github.com/pazguille/offline-first#readme",
+        "text": "Offline-First",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/agarrharr/awesome-static-website-services#readme",
+        "toRaw": "https://github.com/agarrharr/awesome-static-website-services#readme",
+        "text": "Static Website Services",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/cyclejs-community/awesome-cyclejs#readme",
+        "toRaw": "https://github.com/cyclejs-community/awesome-cyclejs#readme",
+        "text": "Cycle.js",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/dok/awesome-text-editing#readme",
+        "toRaw": "https://github.com/dok/awesome-text-editing#readme",
+        "text": "Text Editing",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/fliptheweb/motion-ui-design#readme",
+        "toRaw": "https://github.com/fliptheweb/motion-ui-design#readme",
+        "text": "Motion UI Design",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/vuejs/awesome-vue#readme",
+        "toRaw": "https://github.com/vuejs/awesome-vue#readme",
+        "text": "Vue.js",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sadcitizen/awesome-marionette#readme",
+        "toRaw": "https://github.com/sadcitizen/awesome-marionette#readme",
+        "text": "Marionette.js",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/aurelia-contrib/awesome-aurelia#readme",
+        "toRaw": "https://github.com/aurelia-contrib/awesome-aurelia#readme",
+        "text": "Aurelia",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/zingchart/awesome-charting#readme",
+        "toRaw": "https://github.com/zingchart/awesome-charting#readme",
+        "text": "Charting",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/candelibas/awesome-ionic#readme",
+        "toRaw": "https://github.com/candelibas/awesome-ionic#readme",
+        "text": "Ionic Framework",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ChromeDevTools/awesome-chrome-devtools#readme",
+        "toRaw": "https://github.com/ChromeDevTools/awesome-chrome-devtools#readme",
+        "text": "Chrome DevTools",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/jdrgomes/awesome-postcss#readme",
+        "toRaw": "https://github.com/jdrgomes/awesome-postcss#readme",
+        "text": "PostCSS",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/nikgraf/awesome-draft-js#readme",
+        "toRaw": "https://github.com/nikgraf/awesome-draft-js#readme",
+        "text": "Draft.js",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/TalAter/awesome-service-workers#readme",
+        "toRaw": "https://github.com/TalAter/awesome-service-workers#readme",
+        "text": "Service Workers",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/TalAter/awesome-progressive-web-apps#readme",
+        "toRaw": "https://github.com/TalAter/awesome-progressive-web-apps#readme",
+        "text": "Progressive Web Apps",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/choojs/awesome-choo#readme",
+        "toRaw": "https://github.com/choojs/awesome-choo#readme",
+        "text": "choo",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/brillout/awesome-redux#readme",
+        "toRaw": "https://github.com/brillout/awesome-redux#readme",
+        "text": "Redux",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/browserify/awesome-browserify#readme",
+        "toRaw": "https://github.com/browserify/awesome-browserify#readme",
+        "text": "Browserify",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/Famolus/awesome-sass#readme",
+        "toRaw": "https://github.com/Famolus/awesome-sass#readme",
+        "text": "Sass",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/websemantics/awesome-ant-design#readme",
+        "toRaw": "https://github.com/websemantics/awesome-ant-design#readme",
+        "text": "Ant Design",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/LucasBassetti/awesome-less#readme",
+        "toRaw": "https://github.com/LucasBassetti/awesome-less#readme",
+        "text": "Less",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sjfricke/awesome-webgl#readme",
+        "toRaw": "https://github.com/sjfricke/awesome-webgl#readme",
+        "text": "WebGL",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/preactjs/awesome-preact#readme",
+        "toRaw": "https://github.com/preactjs/awesome-preact#readme",
+        "text": "Preact",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/jbmoelker/progressive-enhancement-resources#readme",
+        "toRaw": "https://github.com/jbmoelker/progressive-enhancement-resources#readme",
+        "text": "Progressive Enhancement",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/unicodeveloper/awesome-nextjs#readme",
+        "toRaw": "https://github.com/unicodeveloper/awesome-nextjs#readme",
+        "text": "Next.js",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/web-padawan/awesome-lit#readme",
+        "toRaw": "https://github.com/web-padawan/awesome-lit#readme",
+        "text": "lit",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/automata/awesome-jamstack#readme",
+        "toRaw": "https://github.com/automata/awesome-jamstack#readme",
+        "text": "JAMstack",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/henrikwirth/awesome-wordpress-gatsby#readme",
+        "toRaw": "https://github.com/henrikwirth/awesome-wordpress-gatsby#readme",
+        "text": "WordPress-Gatsby",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/myshov/awesome-mobile-web-development#readme",
+        "toRaw": "https://github.com/myshov/awesome-mobile-web-development#readme",
+        "text": "Mobile Web Development",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/lauthieb/awesome-storybook#readme",
+        "toRaw": "https://github.com/lauthieb/awesome-storybook#readme",
+        "text": "Storybook",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/AdrienTorris/awesome-blazor#readme",
+        "toRaw": "https://github.com/AdrienTorris/awesome-blazor#readme",
+        "text": "Blazor",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/csabapalfi/awesome-pagespeed-metrics#readme",
+        "toRaw": "https://github.com/csabapalfi/awesome-pagespeed-metrics#readme",
+        "text": "PageSpeed Metrics",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/aniftyco/awesome-tailwindcss#readme",
+        "toRaw": "https://github.com/aniftyco/awesome-tailwindcss#readme",
+        "text": "Tailwind CSS",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/seed-rs/awesome-seed-rs#readme",
+        "toRaw": "https://github.com/seed-rs/awesome-seed-rs#readme",
+        "text": "Seed",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/pajaydev/awesome-web-performance-budget#readme",
+        "toRaw": "https://github.com/pajaydev/awesome-web-performance-budget#readme",
+        "text": "Web Performance Budget",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sergey-pimenov/awesome-web-animation#readme",
+        "toRaw": "https://github.com/sergey-pimenov/awesome-web-animation#readme",
+        "text": "Web Animation",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/jetli/awesome-yew#readme",
+        "toRaw": "https://github.com/jetli/awesome-yew#readme",
+        "text": "Yew",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/nadunindunil/awesome-material-ui#readme",
+        "toRaw": "https://github.com/nadunindunil/awesome-material-ui#readme",
+        "text": "Material-UI",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/componently-com/awesome-building-blocks-for-web-apps#readme",
+        "toRaw": "https://github.com/componently-com/awesome-building-blocks-for-web-apps#readme",
+        "text": "Building Blocks for Web Apps",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/TheComputerM/awesome-svelte#readme",
+        "toRaw": "https://github.com/TheComputerM/awesome-svelte#readme",
+        "text": "Svelte",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/klaufel/awesome-design-systems#readme",
+        "toRaw": "https://github.com/klaufel/awesome-design-systems#readme",
+        "text": "Design systems",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/innocenzi/awesome-inertiajs#readme",
+        "toRaw": "https://github.com/innocenzi/awesome-inertiajs#readme",
+        "text": "Inertia.js",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/mdbootstrap/awesome-mdbootstrap#readme",
+        "toRaw": "https://github.com/mdbootstrap/awesome-mdbootstrap#readme",
+        "text": "MDBootstrap",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/master-co/awesome-master-css#readme",
+        "toRaw": "https://github.com/master-co/awesome-master-css#readme",
+        "text": "Master CSS",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/shopify/awesome-hydrogen#readme",
+        "toRaw": "https://github.com/shopify/awesome-hydrogen#readme",
+        "text": "Hydrogen",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/thoughtspile/awesome-tiny-js#readme",
+        "toRaw": "https://github.com/thoughtspile/awesome-tiny-js#readme",
+        "text": "Tiny JS",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/joewdavies/awesome-frontend-gis#readme",
+        "toRaw": "https://github.com/joewdavies/awesome-frontend-gis#readme",
+        "text": "Frontend GIS",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/mjhea0/awesome-flask#readme",
+        "toRaw": "https://github.com/mjhea0/awesome-flask#readme",
+        "text": "Flask",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/veggiemonk/awesome-docker#readme",
+        "toRaw": "https://github.com/veggiemonk/awesome-docker#readme",
+        "text": "Docker",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/iJackUA/awesome-vagrant#readme",
+        "toRaw": "https://github.com/iJackUA/awesome-vagrant#readme",
+        "text": "Vagrant",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/uralbash/awesome-pyramid#readme",
+        "toRaw": "https://github.com/uralbash/awesome-pyramid#readme",
+        "text": "Pyramid",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/PerfectCarl/awesome-play1#readme",
+        "toRaw": "https://github.com/PerfectCarl/awesome-play1#readme",
+        "text": "Play1 Framework",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/friendsofcake/awesome-cakephp#readme",
+        "toRaw": "https://github.com/friendsofcake/awesome-cakephp#readme",
+        "text": "CakePHP",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sitepoint-editors/awesome-symfony#readme",
+        "toRaw": "https://github.com/sitepoint-editors/awesome-symfony#readme",
+        "text": "Symfony",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/pehapkari/awesome-symfony-education#readme",
+        "toRaw": "https://github.com/pehapkari/awesome-symfony-education#readme",
+        "text": "Education",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/chiraggude/awesome-laravel#readme",
+        "toRaw": "https://github.com/chiraggude/awesome-laravel#readme",
+        "text": "Laravel",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/fukuball/Awesome-Laravel-Education#readme",
+        "toRaw": "https://github.com/fukuball/Awesome-Laravel-Education#readme",
+        "text": "Education",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/livewire/awesome-tall-stack#readme",
+        "toRaw": "https://github.com/livewire/awesome-tall-stack#readme",
+        "text": "TALL Stack",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/gramantin/awesome-rails#readme",
+        "toRaw": "https://github.com/gramantin/awesome-rails#readme",
+        "text": "Rails",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/hothero/awesome-rails-gem#readme",
+        "toRaw": "https://github.com/hothero/awesome-rails-gem#readme",
+        "text": "Gems",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/phalcon/awesome-phalcon#readme",
+        "toRaw": "https://github.com/phalcon/awesome-phalcon#readme",
+        "text": "Phalcon",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/phanan/htaccess#readme",
+        "toRaw": "https://github.com/phanan/htaccess#readme",
+        "text": "Useful ",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/fcambus/nginx-resources#readme",
+        "toRaw": "https://github.com/fcambus/nginx-resources#readme",
+        "text": "nginx",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/stve/awesome-dropwizard#readme",
+        "toRaw": "https://github.com/stve/awesome-dropwizard#readme",
+        "text": "Dropwizard",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ramitsurana/awesome-kubernetes#readme",
+        "toRaw": "https://github.com/ramitsurana/awesome-kubernetes#readme",
+        "text": "Kubernetes",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/unicodeveloper/awesome-lumen#readme",
+        "toRaw": "https://github.com/unicodeveloper/awesome-lumen#readme",
+        "text": "Lumen",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/pmuens/awesome-serverless#readme",
+        "toRaw": "https://github.com/pmuens/awesome-serverless#readme",
+        "text": "Serverless Framework",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/PhantomYdn/awesome-wicket#readme",
+        "toRaw": "https://github.com/PhantomYdn/awesome-wicket#readme",
+        "text": "Apache Wicket",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/vert-x3/vertx-awesome#readme",
+        "toRaw": "https://github.com/vert-x3/vertx-awesome#readme",
+        "text": "Vert.x",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/shuaibiyy/awesome-terraform#readme",
+        "toRaw": "https://github.com/shuaibiyy/awesome-terraform#readme",
+        "text": "Terraform",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/vapor-community/awesome-vapor#readme",
+        "toRaw": "https://github.com/vapor-community/awesome-vapor#readme",
+        "text": "Vapor",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ucg8j/awesome-dash#readme",
+        "toRaw": "https://github.com/ucg8j/awesome-dash#readme",
+        "text": "Dash",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/mjhea0/awesome-fastapi#readme",
+        "toRaw": "https://github.com/mjhea0/awesome-fastapi#readme",
+        "text": "FastAPI",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/kolomied/awesome-cdk#readme",
+        "toRaw": "https://github.com/kolomied/awesome-cdk#readme",
+        "text": "CDK",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/kdeldycke/awesome-iam#readme",
+        "toRaw": "https://github.com/kdeldycke/awesome-iam#readme",
+        "text": "IAM",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/nekofar/awesome-slim#readme",
+        "toRaw": "https://github.com/nekofar/awesome-slim#readme",
+        "text": "Slim",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/gofiber/awesome-fiber#readme",
+        "toRaw": "https://github.com/gofiber/awesome-fiber#readme",
+        "text": "Fiber",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/DevOpsHiveHQ/awesome-kustomize#readme",
+        "toRaw": "https://github.com/DevOpsHiveHQ/awesome-kustomize#readme",
+        "text": "Kustomize",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/virtualroot/awesome-opentofu#readme",
+        "toRaw": "https://github.com/virtualroot/awesome-opentofu#readme",
+        "text": "OpenTofu",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/reflex-dev/awesome-reflex#readme",
+        "toRaw": "https://github.com/reflex-dev/awesome-reflex#readme",
+        "text": "Reflex",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/prakhar1989/awesome-courses#readme",
+        "toRaw": "https://github.com/prakhar1989/awesome-courses#readme",
+        "text": "University Courses",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/academic/awesome-datascience#readme",
+        "toRaw": "https://github.com/academic/awesome-datascience#readme",
+        "text": "Data Science",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/siboehm/awesome-learn-datascience#readme",
+        "toRaw": "https://github.com/siboehm/awesome-learn-datascience#readme",
+        "text": "Tutorials",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/josephmisiti/awesome-machine-learning#readme",
+        "toRaw": "https://github.com/josephmisiti/awesome-machine-learning#readme",
+        "text": "Machine Learning",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ujjwalkarn/Machine-Learning-Tutorials#readme",
+        "toRaw": "https://github.com/ujjwalkarn/Machine-Learning-Tutorials#readme",
+        "text": "Tutorials",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/arbox/machine-learning-with-ruby#readme",
+        "toRaw": "https://github.com/arbox/machine-learning-with-ruby#readme",
+        "text": "ML with Ruby",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/likedan/Awesome-CoreML-Models#readme",
+        "toRaw": "https://github.com/likedan/Awesome-CoreML-Models#readme",
+        "text": "Core ML Models",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/h2oai/awesome-h2o#readme",
+        "toRaw": "https://github.com/h2oai/awesome-h2o#readme",
+        "text": "H2O",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/SE-ML/awesome-seml#readme",
+        "toRaw": "https://github.com/SE-ML/awesome-seml#readme",
+        "text": "Software Engineering for Machine Learning",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/georgezouq/awesome-ai-in-finance#readme",
+        "toRaw": "https://github.com/georgezouq/awesome-ai-in-finance#readme",
+        "text": "AI in Finance",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/n2cholas/awesome-jax#readme",
+        "toRaw": "https://github.com/n2cholas/awesome-jax#readme",
+        "text": "JAX",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/altamiracorp/awesome-xai#readme",
+        "toRaw": "https://github.com/altamiracorp/awesome-xai#readme",
+        "text": "XAI",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/edobashira/speech-language-processing#readme",
+        "toRaw": "https://github.com/edobashira/speech-language-processing#readme",
+        "text": "Speech and Natural Language Processing",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/dav009/awesome-spanish-nlp#readme",
+        "toRaw": "https://github.com/dav009/awesome-spanish-nlp#readme",
+        "text": "Spanish",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/arbox/nlp-with-ruby#readme",
+        "toRaw": "https://github.com/arbox/nlp-with-ruby#readme",
+        "text": "NLP with Ruby",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/seriousran/awesome-qa#readme",
+        "toRaw": "https://github.com/seriousran/awesome-qa#readme",
+        "text": "Question Answering",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/accelerated-text/awesome-nlg#readme",
+        "toRaw": "https://github.com/accelerated-text/awesome-nlg#readme",
+        "text": "Natural Language Generation",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/theimpossibleastronaut/awesome-linguistics#readme",
+        "toRaw": "https://github.com/theimpossibleastronaut/awesome-linguistics#readme",
+        "text": "Linguistics",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sobolevn/awesome-cryptography#readme",
+        "toRaw": "https://github.com/sobolevn/awesome-cryptography#readme",
+        "text": "Cryptography",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/pFarb/awesome-crypto-papers#readme",
+        "toRaw": "https://github.com/pFarb/awesome-crypto-papers#readme",
+        "text": "Papers",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/jbhuang0604/awesome-computer-vision#readme",
+        "toRaw": "https://github.com/jbhuang0604/awesome-computer-vision#readme",
+        "text": "Computer Vision",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ChristosChristofidis/awesome-deep-learning#readme",
+        "toRaw": "https://github.com/ChristosChristofidis/awesome-deep-learning#readme",
+        "text": "Deep Learning",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/jtoy/awesome-tensorflow#readme",
+        "toRaw": "https://github.com/jtoy/awesome-tensorflow#readme",
+        "text": "TensorFlow",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/aaronhma/awesome-tensorflow-js#readme",
+        "toRaw": "https://github.com/aaronhma/awesome-tensorflow-js#readme",
+        "text": "TensorFlow.js",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/margaretmz/awesome-tensorflow-lite#readme",
+        "toRaw": "https://github.com/margaretmz/awesome-tensorflow-lite#readme",
+        "text": "TensorFlow Lite",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/terryum/awesome-deep-learning-papers#readme",
+        "toRaw": "https://github.com/terryum/awesome-deep-learning-papers#readme",
+        "text": "Papers",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/guillaume-chevalier/awesome-deep-learning-resources#readme",
+        "toRaw": "https://github.com/guillaume-chevalier/awesome-deep-learning-resources#readme",
+        "text": "Education",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/kjw0612/awesome-deep-vision#readme",
+        "toRaw": "https://github.com/kjw0612/awesome-deep-vision#readme",
+        "text": "Deep Vision",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ossu/computer-science#readme",
+        "toRaw": "https://github.com/ossu/computer-science#readme",
+        "text": "Open Source Society University",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/lucasviola/awesome-functional-programming#readme",
+        "toRaw": "https://github.com/lucasviola/awesome-functional-programming#readme",
+        "text": "Functional Programming",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/dspinellis/awesome-msr#readme",
+        "toRaw": "https://github.com/dspinellis/awesome-msr#readme",
+        "text": "Empirical Software Engineering",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/analysis-tools-dev/static-analysis#readme",
+        "toRaw": "https://github.com/analysis-tools-dev/static-analysis#readme",
+        "text": "Static Analysis & Code Quality",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/harpribot/awesome-information-retrieval#readme",
+        "toRaw": "https://github.com/harpribot/awesome-information-retrieval#readme",
+        "text": "Information Retrieval",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/desireevl/awesome-quantum-computing#readme",
+        "toRaw": "https://github.com/desireevl/awesome-quantum-computing#readme",
+        "text": "Quantum Computing",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/mostafatouny/awesome-theoretical-computer-science#readme",
+        "toRaw": "https://github.com/mostafatouny/awesome-theoretical-computer-science#readme",
+        "text": "Theoretical Computer Science",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/jyguyomarch/awesome-conversational-ai#readme",
+        "toRaw": "https://github.com/jyguyomarch/awesome-conversational-ai#readme",
+        "text": "Conversational AI",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/steven2358/awesome-generative-ai#readme",
+        "toRaw": "https://github.com/steven2358/awesome-generative-ai#readme",
+        "text": "Generative AI",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/0xnr/awesome-bigdata#readme",
+        "toRaw": "https://github.com/0xnr/awesome-bigdata#readme",
+        "text": "Big Data",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/awesomedata/awesome-public-datasets#readme",
+        "toRaw": "https://github.com/awesomedata/awesome-public-datasets#readme",
+        "text": "Public Datasets",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/youngwookim/awesome-hadoop#readme",
+        "toRaw": "https://github.com/youngwookim/awesome-hadoop#readme",
+        "text": "Hadoop",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/igorbarinov/awesome-data-engineering#readme",
+        "toRaw": "https://github.com/igorbarinov/awesome-data-engineering#readme",
+        "text": "Data Engineering",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/manuzhang/awesome-streaming#readme",
+        "toRaw": "https://github.com/manuzhang/awesome-streaming#readme",
+        "text": "Streaming",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/awesome-spark/awesome-spark#readme",
+        "toRaw": "https://github.com/awesome-spark/awesome-spark#readme",
+        "text": "Apache Spark",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ambster-public/awesome-qlik#readme",
+        "toRaw": "https://github.com/ambster-public/awesome-qlik#readme",
+        "text": "Qlik",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sduff/awesome-splunk#readme",
+        "toRaw": "https://github.com/sduff/awesome-splunk#readme",
+        "text": "Splunk",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/briatte/awesome-network-analysis#readme",
+        "toRaw": "https://github.com/briatte/awesome-network-analysis#readme",
+        "text": "Network Analysis",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/papers-we-love/papers-we-love#readme",
+        "toRaw": "https://github.com/papers-we-love/papers-we-love#readme",
+        "text": "Papers We Love",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/JanVanRyswyck/awesome-talks#readme",
+        "toRaw": "https://github.com/JanVanRyswyck/awesome-talks#readme",
+        "text": "Talks",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/tayllan/awesome-algorithms#readme",
+        "toRaw": "https://github.com/tayllan/awesome-algorithms#readme",
+        "text": "Algorithms",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/gaerae/awesome-algorithms-education#readme",
+        "toRaw": "https://github.com/gaerae/awesome-algorithms-education#readme",
+        "text": "Education",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/enjalot/algovis#readme",
+        "toRaw": "https://github.com/enjalot/algovis#readme",
+        "text": "Algorithm Visualizations",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/owainlewis/awesome-artificial-intelligence#readme",
+        "toRaw": "https://github.com/owainlewis/awesome-artificial-intelligence#readme",
+        "text": "Artificial Intelligence",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/marcobiedermann/search-engine-optimization#readme",
+        "toRaw": "https://github.com/marcobiedermann/search-engine-optimization#readme",
+        "text": "Search Engine Optimization",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/lnishan/awesome-competitive-programming#readme",
+        "toRaw": "https://github.com/lnishan/awesome-competitive-programming#readme",
+        "text": "Competitive Programming",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/rossant/awesome-math#readme",
+        "toRaw": "https://github.com/rossant/awesome-math#readme",
+        "text": "Math",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/passy/awesome-recursion-schemes#readme",
+        "toRaw": "https://github.com/passy/awesome-recursion-schemes#readme",
+        "text": "Recursion Schemes",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/erwanlemerrer/awesome-audit-algorithms#readme",
+        "toRaw": "https://github.com/erwanlemerrer/awesome-audit-algorithms#readme",
+        "text": "Audit Algorithms",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/YuzheSHI/awesome-agi-cocosci#readme",
+        "toRaw": "https://github.com/YuzheSHI/awesome-agi-cocosci#readme",
+        "text": "AGI & CoCoSci",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sellisd/awesome-complexity#readme",
+        "toRaw": "https://github.com/sellisd/awesome-complexity#readme",
+        "text": "Complex Systems",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/gokayfem/awesome-vlm-architectures#readme",
+        "toRaw": "https://github.com/gokayfem/awesome-vlm-architectures#readme",
+        "text": "VLM Architectures",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/EbookFoundation/free-programming-books#readme",
+        "toRaw": "https://github.com/EbookFoundation/free-programming-books#readme",
+        "text": "Free Programming Books",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/dariubs/GoBooks#readme",
+        "toRaw": "https://github.com/dariubs/GoBooks#readme",
+        "text": "Go Books",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/RomanTsegelskyi/rbooks#readme",
+        "toRaw": "https://github.com/RomanTsegelskyi/rbooks#readme",
+        "text": "R Books",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/hackerkid/Mind-Expanding-Books#readme",
+        "toRaw": "https://github.com/hackerkid/Mind-Expanding-Books#readme",
+        "text": "Mind Expanding Books",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/TalAter/awesome-book-authoring#readme",
+        "toRaw": "https://github.com/TalAter/awesome-book-authoring#readme",
+        "text": "Book Authoring",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sger/ElixirBooks#readme",
+        "toRaw": "https://github.com/sger/ElixirBooks#readme",
+        "text": "Elixir Books",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/dreikanter/sublime-bookmarks#readme",
+        "toRaw": "https://github.com/dreikanter/sublime-bookmarks#readme",
+        "text": "Sublime Text",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/mhinz/vim-galore#readme",
+        "toRaw": "https://github.com/mhinz/vim-galore#readme",
+        "text": "Vim",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/rockerBOO/awesome-neovim#readme",
+        "toRaw": "https://github.com/rockerBOO/awesome-neovim#readme",
+        "text": "Neovim",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/emacs-tw/awesome-emacs#readme",
+        "toRaw": "https://github.com/emacs-tw/awesome-emacs#readme",
+        "text": "Emacs",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/mehcode/awesome-atom#readme",
+        "toRaw": "https://github.com/mehcode/awesome-atom#readme",
+        "text": "Atom",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/viatsko/awesome-vscode#readme",
+        "toRaw": "https://github.com/viatsko/awesome-vscode#readme",
+        "text": "Visual Studio Code",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ellisonleao/magictools#readme",
+        "toRaw": "https://github.com/ellisonleao/magictools#readme",
+        "text": "Game Development",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/hzoo/awesome-gametalks#readme",
+        "toRaw": "https://github.com/hzoo/awesome-gametalks#readme",
+        "text": "Game Talks",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/godotengine/awesome-godot#readme",
+        "toRaw": "https://github.com/godotengine/awesome-godot#readme",
+        "text": "Godot",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/michelpereira/awesome-open-source-games#readme",
+        "toRaw": "https://github.com/michelpereira/awesome-open-source-games#readme",
+        "text": "Open Source Games",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/RyanNielson/awesome-unity#readme",
+        "toRaw": "https://github.com/RyanNielson/awesome-unity#readme",
+        "text": "Unity",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/hkirat/awesome-chess#readme",
+        "toRaw": "https://github.com/hkirat/awesome-chess#readme",
+        "text": "Chess",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/love2d-community/awesome-love2d#readme",
+        "toRaw": "https://github.com/love2d-community/awesome-love2d#readme",
+        "text": "LÖVE",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/pico-8/awesome-PICO-8#readme",
+        "toRaw": "https://github.com/pico-8/awesome-PICO-8#readme",
+        "text": "PICO-8",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/gbdev/awesome-gbdev#readme",
+        "toRaw": "https://github.com/gbdev/awesome-gbdev#readme",
+        "text": "Game Boy Development",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ConstructCommunity/awesome-construct#readme",
+        "toRaw": "https://github.com/ConstructCommunity/awesome-construct#readme",
+        "text": "Construct 2",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/stetso/awesome-gideros#readme",
+        "toRaw": "https://github.com/stetso/awesome-gideros#readme",
+        "text": "Gideros",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/bs-community/awesome-minecraft#readme",
+        "toRaw": "https://github.com/bs-community/awesome-minecraft#readme",
+        "text": "Minecraft",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/tomodachi94/awesome-computercraft#readme",
+        "toRaw": "https://github.com/tomodachi94/awesome-computercraft#readme",
+        "text": "ComputerCraft",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/leomaurodesenv/game-datasets#readme",
+        "toRaw": "https://github.com/leomaurodesenv/game-datasets#readme",
+        "text": "Game Datasets",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/Dvergar/awesome-haxe-gamedev#readme",
+        "toRaw": "https://github.com/Dvergar/awesome-haxe-gamedev#readme",
+        "text": "Haxe Game Development",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/rafaskb/awesome-libgdx#readme",
+        "toRaw": "https://github.com/rafaskb/awesome-libgdx#readme",
+        "text": "libGDX",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/playcanvas/awesome-playcanvas#readme",
+        "toRaw": "https://github.com/playcanvas/awesome-playcanvas#readme",
+        "text": "PlayCanvas",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/radek-sprta/awesome-game-remakes#readme",
+        "toRaw": "https://github.com/radek-sprta/awesome-game-remakes#readme",
+        "text": "Game Remakes",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/flame-engine/awesome-flame#readme",
+        "toRaw": "https://github.com/flame-engine/awesome-flame#readme",
+        "text": "Flame",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/mhxion/awesome-discord-communities#readme",
+        "toRaw": "https://github.com/mhxion/awesome-discord-communities#readme",
+        "text": "Discord Communities",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/tobiasvl/awesome-chip-8#readme",
+        "toRaw": "https://github.com/tobiasvl/awesome-chip-8#readme",
+        "text": "CHIP-8",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/michelpereira/awesome-games-of-coding#readme",
+        "toRaw": "https://github.com/michelpereira/awesome-games-of-coding#readme",
+        "text": "Games of Coding",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/strift/awesome-esports#readme",
+        "toRaw": "https://github.com/strift/awesome-esports#readme",
+        "text": "Esports",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/notpresident35/awesome-learn-gamedev#readme",
+        "toRaw": "https://github.com/notpresident35/awesome-learn-gamedev#readme",
+        "text": "Learn Gamedev",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/stevinz/awesome-game-engine-dev#readme",
+        "toRaw": "https://github.com/stevinz/awesome-game-engine-dev#readme",
+        "text": "Game Engine Development",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/bytecauldron/awesome-gamemaker#readme",
+        "toRaw": "https://github.com/bytecauldron/awesome-gamemaker#readme",
+        "text": "GameMaker",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/vhladiienko/awesome-game-production#readme",
+        "toRaw": "https://github.com/vhladiienko/awesome-game-production#readme",
+        "text": "Game Production",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/Symbitic/awesome-babylonjs#readme",
+        "toRaw": "https://github.com/Symbitic/awesome-babylonjs#readme",
+        "text": "Babylon.js",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sindresorhus/quick-look-plugins#readme",
+        "toRaw": "https://github.com/sindresorhus/quick-look-plugins#readme",
+        "text": "Quick Look Plugins",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/jondot/awesome-devenv#readme",
+        "toRaw": "https://github.com/jondot/awesome-devenv#readme",
+        "text": "Dev Env",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/webpro/awesome-dotfiles#readme",
+        "toRaw": "https://github.com/webpro/awesome-dotfiles#readme",
+        "text": "Dotfiles",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/alebcay/awesome-shell#readme",
+        "toRaw": "https://github.com/alebcay/awesome-shell#readme",
+        "text": "Shell",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/jorgebucaran/awsm.fish#readme",
+        "toRaw": "https://github.com/jorgebucaran/awsm.fish#readme",
+        "text": "Fish",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/agarrharr/awesome-cli-apps#readme",
+        "toRaw": "https://github.com/agarrharr/awesome-cli-apps#readme",
+        "text": "Command-Line Apps",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/unixorn/awesome-zsh-plugins#readme",
+        "toRaw": "https://github.com/unixorn/awesome-zsh-plugins#readme",
+        "text": "ZSH Plugins",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/phillipadsmith/awesome-github#readme",
+        "toRaw": "https://github.com/phillipadsmith/awesome-github#readme",
+        "text": "GitHub",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/stefanbuck/awesome-browser-extensions-for-github#readme",
+        "toRaw": "https://github.com/stefanbuck/awesome-browser-extensions-for-github#readme",
+        "text": "Browser Extensions",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/tiimgreen/github-cheat-sheet#readme",
+        "toRaw": "https://github.com/tiimgreen/github-cheat-sheet#readme",
+        "text": "Cheat Sheet",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/matchai/awesome-pinned-gists#readme",
+        "toRaw": "https://github.com/matchai/awesome-pinned-gists#readme",
+        "text": "Pinned Gists",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/arslanbilal/git-cheat-sheet#readme",
+        "toRaw": "https://github.com/arslanbilal/git-cheat-sheet#readme",
+        "text": "Git Cheat Sheet & Git Flow",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/git-tips/tips#readme",
+        "toRaw": "https://github.com/git-tips/tips#readme",
+        "text": "Git Tips",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/stevemao/awesome-git-addons#readme",
+        "toRaw": "https://github.com/stevemao/awesome-git-addons#readme",
+        "text": "Git Add-ons",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/compscilauren/awesome-git-hooks#readme",
+        "toRaw": "https://github.com/compscilauren/awesome-git-hooks#readme",
+        "text": "Git Hooks",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/moul/awesome-ssh#readme",
+        "toRaw": "https://github.com/moul/awesome-ssh#readme",
+        "text": "SSH",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/tvvocold/FOSS-for-Dev#readme",
+        "toRaw": "https://github.com/tvvocold/FOSS-for-Dev#readme",
+        "text": "FOSS for Developers",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/bnb/awesome-hyper#readme",
+        "toRaw": "https://github.com/bnb/awesome-hyper#readme",
+        "text": "Hyper",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/janikvonrotz/awesome-powershell#readme",
+        "toRaw": "https://github.com/janikvonrotz/awesome-powershell#readme",
+        "text": "PowerShell",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/alfred-workflows/awesome-alfred-workflows#readme",
+        "toRaw": "https://github.com/alfred-workflows/awesome-alfred-workflows#readme",
+        "text": "Alfred Workflows",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/k4m4/terminals-are-sexy#readme",
+        "toRaw": "https://github.com/k4m4/terminals-are-sexy#readme",
+        "text": "Terminals Are Sexy",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sdras/awesome-actions#readme",
+        "toRaw": "https://github.com/sdras/awesome-actions#readme",
+        "text": "GitHub Actions",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sindresorhus/awesome-scifi#readme",
+        "toRaw": "https://github.com/sindresorhus/awesome-scifi#readme",
+        "text": "Science Fiction",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/RichardLitt/awesome-fantasy#readme",
+        "toRaw": "https://github.com/RichardLitt/awesome-fantasy#readme",
+        "text": "Fantasy",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ayr-ton/awesome-geek-podcasts#readme",
+        "toRaw": "https://github.com/ayr-ton/awesome-geek-podcasts#readme",
+        "text": "Podcasts",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/zudochkin/awesome-newsletters#readme",
+        "toRaw": "https://github.com/zudochkin/awesome-newsletters#readme",
+        "text": "Email Newsletters",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/victorlaerte/awesome-it-quotes#readme",
+        "toRaw": "https://github.com/victorlaerte/awesome-it-quotes#readme",
+        "text": "IT Quotes",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/numetriclabz/awesome-db#readme",
+        "toRaw": "https://github.com/numetriclabz/awesome-db#readme",
+        "text": "Database",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/shlomi-noach/awesome-mysql#readme",
+        "toRaw": "https://github.com/shlomi-noach/awesome-mysql#readme",
+        "text": "MySQL",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/dahlia/awesome-sqlalchemy#readme",
+        "toRaw": "https://github.com/dahlia/awesome-sqlalchemy#readme",
+        "text": "SQLAlchemy",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/mark-rushakoff/awesome-influxdb#readme",
+        "toRaw": "https://github.com/mark-rushakoff/awesome-influxdb#readme",
+        "text": "InfluxDB",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/neueda/awesome-neo4j#readme",
+        "toRaw": "https://github.com/neueda/awesome-neo4j#readme",
+        "text": "Neo4j",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ramnes/awesome-mongodb#readme",
+        "toRaw": "https://github.com/ramnes/awesome-mongodb#readme",
+        "text": "MongoDB",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/d3viant0ne/awesome-rethinkdb#readme",
+        "toRaw": "https://github.com/d3viant0ne/awesome-rethinkdb#readme",
+        "text": "RethinkDB",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/mohataher/awesome-tinkerpop#readme",
+        "toRaw": "https://github.com/mohataher/awesome-tinkerpop#readme",
+        "text": "TinkerPop",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/dhamaniasad/awesome-postgres#readme",
+        "toRaw": "https://github.com/dhamaniasad/awesome-postgres#readme",
+        "text": "PostgreSQL",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/quangv/awesome-couchdb#readme",
+        "toRaw": "https://github.com/quangv/awesome-couchdb#readme",
+        "text": "CouchDB",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/rayokota/awesome-hbase#readme",
+        "toRaw": "https://github.com/rayokota/awesome-hbase#readme",
+        "text": "HBase",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/erictleung/awesome-nosql-guides#readme",
+        "toRaw": "https://github.com/erictleung/awesome-nosql-guides#readme",
+        "text": "NoSQL Guides",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/mgramin/awesome-db-tools#readme",
+        "toRaw": "https://github.com/mgramin/awesome-db-tools#readme",
+        "text": "Database Tools",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/vaticle/typedb-awesome#readme",
+        "toRaw": "https://github.com/vaticle/typedb-awesome#readme",
+        "text": "TypeDB",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/Anant/awesome-cassandra#readme",
+        "toRaw": "https://github.com/Anant/awesome-cassandra#readme",
+        "text": "Cassandra",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/taosdata/awesome-tdengine#readme",
+        "toRaw": "https://github.com/taosdata/awesome-tdengine#readme",
+        "text": "TDengine",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/lyqht/awesome-supabase#readme",
+        "toRaw": "https://github.com/lyqht/awesome-supabase#readme",
+        "text": "Supabase",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/benallfree/awesome-pocketbase#readme",
+        "toRaw": "https://github.com/benallfree/awesome-pocketbase#readme",
+        "text": "PocketBase",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/tyaga001/awesome-neon#readme",
+        "toRaw": "https://github.com/tyaga001/awesome-neon#readme",
+        "text": "Neon",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/brabadu/awesome-fonts#readme",
+        "toRaw": "https://github.com/brabadu/awesome-fonts#readme",
+        "text": "Fonts",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/chrissimpkins/codeface#readme",
+        "toRaw": "https://github.com/chrissimpkins/codeface#readme",
+        "text": "Codeface",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/neutraltone/awesome-stock-resources#readme",
+        "toRaw": "https://github.com/neutraltone/awesome-stock-resources#readme",
+        "text": "Stock Resources",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/davisonio/awesome-gif#readme",
+        "toRaw": "https://github.com/davisonio/awesome-gif#readme",
+        "text": "GIF",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ciconia/awesome-music#readme",
+        "toRaw": "https://github.com/ciconia/awesome-music#readme",
+        "text": "Music",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/44bits/awesome-opensource-documents#readme",
+        "toRaw": "https://github.com/44bits/awesome-opensource-documents#readme",
+        "text": "Open Source Documents",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/willianjusten/awesome-audio-visualization#readme",
+        "toRaw": "https://github.com/willianjusten/awesome-audio-visualization#readme",
+        "text": "Audio Visualization",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ebu/awesome-broadcasting#readme",
+        "toRaw": "https://github.com/ebu/awesome-broadcasting#readme",
+        "text": "Broadcasting",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/Siilwyn/awesome-pixel-art#readme",
+        "toRaw": "https://github.com/Siilwyn/awesome-pixel-art#readme",
+        "text": "Pixel Art",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/transitive-bullshit/awesome-ffmpeg#readme",
+        "toRaw": "https://github.com/transitive-bullshit/awesome-ffmpeg#readme",
+        "text": "FFmpeg",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/notlmn/awesome-icons#readme",
+        "toRaw": "https://github.com/notlmn/awesome-icons#readme",
+        "text": "Icons",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/stingalleman/awesome-audiovisual#readme",
+        "toRaw": "https://github.com/stingalleman/awesome-audiovisual#readme",
+        "text": "Audiovisual",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/mfkl/awesome-vlc#readme",
+        "toRaw": "https://github.com/mfkl/awesome-vlc#readme",
+        "text": "VLC",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/therebelrobot/awesome-workshopper#readme",
+        "toRaw": "https://github.com/therebelrobot/awesome-workshopper#readme",
+        "text": "CLI Workshoppers",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/karlhorky/learn-to-program#readme",
+        "toRaw": "https://github.com/karlhorky/learn-to-program#readme",
+        "text": "Learn to Program",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/matteofigus/awesome-speaking#readme",
+        "toRaw": "https://github.com/matteofigus/awesome-speaking#readme",
+        "text": "Speaking",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/lucasviola/awesome-tech-videos#readme",
+        "toRaw": "https://github.com/lucasviola/awesome-tech-videos#readme",
+        "text": "Tech Videos",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/hangtwenty/dive-into-machine-learning#readme",
+        "toRaw": "https://github.com/hangtwenty/dive-into-machine-learning#readme",
+        "text": "Dive into Machine Learning",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/watson/awesome-computer-history#readme",
+        "toRaw": "https://github.com/watson/awesome-computer-history#readme",
+        "text": "Computer History",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/HollyAdele/awesome-programming-for-kids#readme",
+        "toRaw": "https://github.com/HollyAdele/awesome-programming-for-kids#readme",
+        "text": "Programming for Kids",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/RahulBirCodes/awesome-steam#readme",
+        "toRaw": "https://github.com/RahulBirCodes/awesome-steam#readme",
+        "text": "STEAM",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/yrgo/awesome-educational-games#readme",
+        "toRaw": "https://github.com/yrgo/awesome-educational-games#readme",
+        "text": "Educational Games",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/micromata/awesome-javascript-learning#readme",
+        "toRaw": "https://github.com/micromata/awesome-javascript-learning#readme",
+        "text": "JavaScript Learning",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/micromata/awesome-css-learning#readme",
+        "toRaw": "https://github.com/micromata/awesome-css-learning#readme",
+        "text": "CSS Learning",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/dend/awesome-product-management#readme",
+        "toRaw": "https://github.com/dend/awesome-product-management#readme",
+        "text": "Product Management",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/liuchong/awesome-roadmaps#readme",
+        "toRaw": "https://github.com/liuchong/awesome-roadmaps#readme",
+        "text": "Roadmaps",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/JoseDeFreitas/awesome-youtubers#readme",
+        "toRaw": "https://github.com/JoseDeFreitas/awesome-youtubers#readme",
+        "text": "YouTubers",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/dribdat/awesome-hackathon#readme",
+        "toRaw": "https://github.com/dribdat/awesome-hackathon#readme",
+        "text": "Hackathon",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/PanXProject/awesome-certificates#readme",
+        "toRaw": "https://github.com/PanXProject/awesome-certificates#readme",
+        "text": "Certificates",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/paragonie/awesome-appsec#readme",
+        "toRaw": "https://github.com/paragonie/awesome-appsec#readme",
+        "text": "Application Security",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sbilly/awesome-security#readme",
+        "toRaw": "https://github.com/sbilly/awesome-security#readme",
+        "text": "Security",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/apsdehal/awesome-ctf#readme",
+        "toRaw": "https://github.com/apsdehal/awesome-ctf#readme",
+        "text": "CTF",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/brootware/awesome-cyber-security-university#readme",
+        "toRaw": "https://github.com/brootware/awesome-cyber-security-university#readme",
+        "text": "Cyber Security University",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/rshipp/awesome-malware-analysis#readme",
+        "toRaw": "https://github.com/rshipp/awesome-malware-analysis#readme",
+        "text": "Malware Analysis",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ashishb/android-security-awesome#readme",
+        "toRaw": "https://github.com/ashishb/android-security-awesome#readme",
+        "text": "Android Security",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/carpedm20/awesome-hacking#readme",
+        "toRaw": "https://github.com/carpedm20/awesome-hacking#readme",
+        "text": "Hacking",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/daviddias/awesome-hacking-locations#readme",
+        "toRaw": "https://github.com/daviddias/awesome-hacking-locations#readme",
+        "text": "Hacking Spots",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/paralax/awesome-honeypots#readme",
+        "toRaw": "https://github.com/paralax/awesome-honeypots#readme",
+        "text": "Honeypots",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/meirwah/awesome-incident-response#readme",
+        "toRaw": "https://github.com/meirwah/awesome-incident-response#readme",
+        "text": "Incident Response",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/jaredthecoder/awesome-vehicle-security#readme",
+        "toRaw": "https://github.com/jaredthecoder/awesome-vehicle-security#readme",
+        "text": "Vehicle Security and Car Hacking",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/qazbnm456/awesome-web-security#readme",
+        "toRaw": "https://github.com/qazbnm456/awesome-web-security#readme",
+        "text": "Web Security",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/fabacab/awesome-lockpicking#readme",
+        "toRaw": "https://github.com/fabacab/awesome-lockpicking#readme",
+        "text": "Lockpicking",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/fabacab/awesome-cybersecurity-blueteam#readme",
+        "toRaw": "https://github.com/fabacab/awesome-cybersecurity-blueteam#readme",
+        "text": "Cybersecurity Blue Team",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/cpuu/awesome-fuzzing#readme",
+        "toRaw": "https://github.com/cpuu/awesome-fuzzing#readme",
+        "text": "Fuzzing",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/fkie-cad/awesome-embedded-and-iot-security#readme",
+        "toRaw": "https://github.com/fkie-cad/awesome-embedded-and-iot-security#readme",
+        "text": "Embedded and IoT Security",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/bakke92/awesome-gdpr#readme",
+        "toRaw": "https://github.com/bakke92/awesome-gdpr#readme",
+        "text": "GDPR",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/TaptuIT/awesome-devsecops#readme",
+        "toRaw": "https://github.com/TaptuIT/awesome-devsecops#readme",
+        "text": "DevSecOps",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://en.wikipedia.org/wiki/DevOps",
+        "toRaw": "https://en.wikipedia.org/wiki/DevOps",
+        "text": "DevOps",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/dhondta/awesome-executable-packing#readme",
+        "toRaw": "https://github.com/dhondta/awesome-executable-packing#readme",
+        "text": "Executable Packing",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/Karneades/awesome-malware-persistence#readme",
+        "toRaw": "https://github.com/Karneades/awesome-malware-persistence#readme",
+        "text": "Malware Persistence",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/kareniel/awesome-evm-security#readme",
+        "toRaw": "https://github.com/kareniel/awesome-evm-security#readme",
+        "text": "EVM Security",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/n0kovo/awesome-password-cracking#readme",
+        "toRaw": "https://github.com/n0kovo/awesome-password-cracking#readme",
+        "text": "Password Cracking",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/Karneades/awesome-security-card-games#readme",
+        "toRaw": "https://github.com/Karneades/awesome-security-card-games#readme",
+        "text": "Security Card Games",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/satta/awesome-suricata#readme",
+        "toRaw": "https://github.com/satta/awesome-suricata#readme",
+        "text": "Suricata",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/FonduAI/awesome-prompt-injection#readme",
+        "toRaw": "https://github.com/FonduAI/awesome-prompt-injection#readme",
+        "text": "Prompt Injection",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/infosecB/awesome-detection-engineering#readme",
+        "toRaw": "https://github.com/infosecB/awesome-detection-engineering#readme",
+        "text": "Detection Engineering",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/jacobdjwilson/awesome-annual-security-reports#readme",
+        "toRaw": "https://github.com/jacobdjwilson/awesome-annual-security-reports#readme",
+        "text": "Annual Security Reports",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/umbraco-community/awesome-umbraco#readme",
+        "toRaw": "https://github.com/umbraco-community/awesome-umbraco#readme",
+        "text": "Umbraco",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/refinerycms-contrib/awesome-refinerycms#readme",
+        "toRaw": "https://github.com/refinerycms-contrib/awesome-refinerycms#readme",
+        "text": "Refinery CMS",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/springload/awesome-wagtail#readme",
+        "toRaw": "https://github.com/springload/awesome-wagtail#readme",
+        "text": "Wagtail",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/drmonkeyninja/awesome-textpattern#readme",
+        "toRaw": "https://github.com/drmonkeyninja/awesome-textpattern#readme",
+        "text": "Textpattern",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/nirgn975/awesome-drupal#readme",
+        "toRaw": "https://github.com/nirgn975/awesome-drupal#readme",
+        "text": "Drupal",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/craftcms/awesome#readme",
+        "toRaw": "https://github.com/craftcms/awesome#readme",
+        "text": "Craft CMS",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/MartinMiles/Awesome-Sitecore#readme",
+        "toRaw": "https://github.com/MartinMiles/Awesome-Sitecore#readme",
+        "text": "Sitecore",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/wernerkrauss/awesome-silverstripe-cms#readme",
+        "toRaw": "https://github.com/wernerkrauss/awesome-silverstripe-cms#readme",
+        "text": "Silverstripe CMS",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/directus-community/awesome-directus#readme",
+        "toRaw": "https://github.com/directus-community/awesome-directus#readme",
+        "text": "Directus",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/collective/awesome-plone#readme",
+        "toRaw": "https://github.com/collective/awesome-plone#readme",
+        "text": "Plone",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/DanailMinchev/awesome-payload#readme",
+        "toRaw": "https://github.com/DanailMinchev/awesome-payload#readme",
+        "text": "Payload",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/Kiloreux/awesome-robotics#readme",
+        "toRaw": "https://github.com/Kiloreux/awesome-robotics#readme",
+        "text": "Robotics",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/HQarroum/awesome-iot#readme",
+        "toRaw": "https://github.com/HQarroum/awesome-iot#readme",
+        "text": "Internet of Things",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/kitspace/awesome-electronics#readme",
+        "toRaw": "https://github.com/kitspace/awesome-electronics#readme",
+        "text": "Electronics",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/rabschi/awesome-beacon#readme",
+        "toRaw": "https://github.com/rabschi/awesome-beacon#readme",
+        "text": "Bluetooth Beacons",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/gitfrage/guitarspecs#readme",
+        "toRaw": "https://github.com/gitfrage/guitarspecs#readme",
+        "text": "Electric Guitar Specifications",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/beardicus/awesome-plotters#readme",
+        "toRaw": "https://github.com/beardicus/awesome-plotters#readme",
+        "text": "Plotters",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/protontypes/awesome-robotic-tooling#readme",
+        "toRaw": "https://github.com/protontypes/awesome-robotic-tooling#readme",
+        "text": "Robotic Tooling",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/szenergy/awesome-lidar#readme",
+        "toRaw": "https://github.com/szenergy/awesome-lidar#readme",
+        "text": "LIDAR",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/delftopenhardware/awesome-open-hardware#readme",
+        "toRaw": "https://github.com/delftopenhardware/awesome-open-hardware#readme",
+        "text": "Open Hardware",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/rickstaa/awesome-adsb#readme",
+        "toRaw": "https://github.com/rickstaa/awesome-adsb#readme",
+        "text": "ADS-B",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/Matthias84/awesome-flying-fpv#readme",
+        "toRaw": "https://github.com/Matthias84/awesome-flying-fpv#readme",
+        "text": "Flying FPV",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/opencompany/awesome-open-company#readme",
+        "toRaw": "https://github.com/opencompany/awesome-open-company#readme",
+        "text": "Open Companies",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/mmccaff/PlacesToPostYourStartup#readme",
+        "toRaw": "https://github.com/mmccaff/PlacesToPostYourStartup#readme",
+        "text": "Places to Post Your Startup",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/domenicosolazzo/awesome-okr#readme",
+        "toRaw": "https://github.com/domenicosolazzo/awesome-okr#readme",
+        "text": "OKR Methodology",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/mezod/awesome-indie#readme",
+        "toRaw": "https://github.com/mezod/awesome-indie#readme",
+        "text": "Indie",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/cjbarber/ToolsOfTheTrade#readme",
+        "toRaw": "https://github.com/cjbarber/ToolsOfTheTrade#readme",
+        "text": "Tools of the Trade",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/nglgzz/awesome-clean-tech#readme",
+        "toRaw": "https://github.com/nglgzz/awesome-clean-tech#readme",
+        "text": "Clean Tech",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/wardley-maps-community/awesome-wardley-maps#readme",
+        "toRaw": "https://github.com/wardley-maps-community/awesome-wardley-maps#readme",
+        "text": "Wardley Maps",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/RayBB/awesome-social-enterprise#readme",
+        "toRaw": "https://github.com/RayBB/awesome-social-enterprise#readme",
+        "text": "Social Enterprise",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/kdeldycke/awesome-engineering-team-management#readme",
+        "toRaw": "https://github.com/kdeldycke/awesome-engineering-team-management#readme",
+        "text": "Engineering Team Management",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/agamm/awesome-developer-first#readme",
+        "toRaw": "https://github.com/agamm/awesome-developer-first#readme",
+        "text": "Developer-First Products",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/kdeldycke/awesome-billing#readme",
+        "toRaw": "https://github.com/kdeldycke/awesome-billing#readme",
+        "text": "Billing",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/aleixmorgadas/awesome-engineering-strategy#readme",
+        "toRaw": "https://github.com/aleixmorgadas/awesome-engineering-strategy#readme",
+        "text": "Engineering Strategy",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/matiassingers/awesome-slack#readme",
+        "toRaw": "https://github.com/matiassingers/awesome-slack#readme",
+        "text": "Slack",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/filipelinhares/awesome-slack#readme",
+        "toRaw": "https://github.com/filipelinhares/awesome-slack#readme",
+        "text": "Communities",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/lukasz-madon/awesome-remote-job#readme",
+        "toRaw": "https://github.com/lukasz-madon/awesome-remote-job#readme",
+        "text": "Remote Jobs",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/jyguyomarch/awesome-productivity#readme",
+        "toRaw": "https://github.com/jyguyomarch/awesome-productivity#readme",
+        "text": "Productivity",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/tramcar/awesome-job-boards#readme",
+        "toRaw": "https://github.com/tramcar/awesome-job-boards#readme",
+        "text": "Niche Job Boards",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/DopplerHQ/awesome-interview-questions#readme",
+        "toRaw": "https://github.com/DopplerHQ/awesome-interview-questions#readme",
+        "text": "Programming Interviews",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/joho/awesome-code-review#readme",
+        "toRaw": "https://github.com/joho/awesome-code-review#readme",
+        "text": "Code Review",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/j0hnm4r5/awesome-creative-technology#readme",
+        "toRaw": "https://github.com/j0hnm4r5/awesome-creative-technology#readme",
+        "text": "Creative Technology",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/lodthe/awesome-internships#readme",
+        "toRaw": "https://github.com/lodthe/awesome-internships#readme",
+        "text": "Internships",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sdnds-tw/awesome-sdn#readme",
+        "toRaw": "https://github.com/sdnds-tw/awesome-sdn#readme",
+        "text": "Software-Defined Networking",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/caesar0301/awesome-pcaptools#readme",
+        "toRaw": "https://github.com/caesar0301/awesome-pcaptools#readme",
+        "text": "PCAPTools",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/rtckit/awesome-rtc#readme",
+        "toRaw": "https://github.com/rtckit/awesome-rtc#readme",
+        "text": "Real-Time Communications",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/eozer/awesome-snmp#readme",
+        "toRaw": "https://github.com/eozer/awesome-snmp#readme",
+        "text": "SNMP",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/secdev/awesome-scapy#readme",
+        "toRaw": "https://github.com/secdev/awesome-scapy#readme",
+        "text": "Scapy",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/igorbarinov/awesome-bitcoin#readme",
+        "toRaw": "https://github.com/igorbarinov/awesome-bitcoin#readme",
+        "text": "Bitcoin",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/vhpoet/awesome-ripple#readme",
+        "toRaw": "https://github.com/vhpoet/awesome-ripple#readme",
+        "text": "Ripple",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/machinomy/awesome-non-financial-blockchain#readme",
+        "toRaw": "https://github.com/machinomy/awesome-non-financial-blockchain#readme",
+        "text": "Non-Financial Blockchain",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/hyperupcall/awesome-mastodon#readme",
+        "toRaw": "https://github.com/hyperupcall/awesome-mastodon#readme",
+        "text": "Mastodon",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ttumiel/Awesome-Ethereum#readme",
+        "toRaw": "https://github.com/ttumiel/Awesome-Ethereum#readme",
+        "text": "Ethereum",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/steven2358/awesome-blockchain-ai#readme",
+        "toRaw": "https://github.com/steven2358/awesome-blockchain-ai#readme",
+        "text": "Blockchain AI",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/DanailMinchev/awesome-eosio#readme",
+        "toRaw": "https://github.com/DanailMinchev/awesome-eosio#readme",
+        "text": "EOSIO",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/chainstack/awesome-corda#readme",
+        "toRaw": "https://github.com/chainstack/awesome-corda#readme",
+        "text": "Corda",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/msmolyakov/awesome-waves#readme",
+        "toRaw": "https://github.com/msmolyakov/awesome-waves#readme",
+        "text": "Waves",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/substrate-developer-hub/awesome-substrate#readme",
+        "toRaw": "https://github.com/substrate-developer-hub/awesome-substrate#readme",
+        "text": "Substrate",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/golemfactory/awesome-golem#readme",
+        "toRaw": "https://github.com/golemfactory/awesome-golem#readme",
+        "text": "Golem",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/friedger/awesome-stacks-chain#readme",
+        "toRaw": "https://github.com/friedger/awesome-stacks-chain#readme",
+        "text": "Stacks",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/aorumbayev/awesome-algorand#readme",
+        "toRaw": "https://github.com/aorumbayev/awesome-algorand#readme",
+        "text": "Algorand",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/zolagonano/awesome-zeronet#readme",
+        "toRaw": "https://github.com/zolagonano/awesome-zeronet#readme",
+        "text": "ZeroNet",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/cosmos/awesome-cosmos#readme",
+        "toRaw": "https://github.com/cosmos/awesome-cosmos#readme",
+        "text": "Cosmos SDK",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/polycarbohydrate/awesome-tor#readme",
+        "toRaw": "https://github.com/polycarbohydrate/awesome-tor#readme",
+        "text": "Tor",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/caufieldjh/awesome-bioie#readme",
+        "toRaw": "https://github.com/caufieldjh/awesome-bioie#readme",
+        "text": "Biomedical Information Extraction",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/eselkin/awesome-computational-neuroscience#readme",
+        "toRaw": "https://github.com/eselkin/awesome-computational-neuroscience#readme",
+        "text": "Computational Neuroscience",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/folkswhocode/awesome-diversity#readme",
+        "toRaw": "https://github.com/folkswhocode/awesome-diversity#readme",
+        "text": "Diversity",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/maehr/awesome-digital-history#readme",
+        "toRaw": "https://github.com/maehr/awesome-digital-history#readme",
+        "text": "Digital History",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/KimberlyMunoz/empathy-in-engineering#readme",
+        "toRaw": "https://github.com/KimberlyMunoz/empathy-in-engineering#readme",
+        "text": "Empathy in Engineering",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/kakoni/awesome-healthcare#readme",
+        "toRaw": "https://github.com/kakoni/awesome-healthcare#readme",
+        "text": "Healthcare",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/humanetech-community/awesome-humane-tech#readme",
+        "toRaw": "https://github.com/humanetech-community/awesome-humane-tech#readme",
+        "text": "Humane Technology",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/dreamingechoes/awesome-mental-health#readme",
+        "toRaw": "https://github.com/dreamingechoes/awesome-mental-health#readme",
+        "text": "Mental Health",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/analyticalmonk/awesome-neuroscience#readme",
+        "toRaw": "https://github.com/analyticalmonk/awesome-neuroscience#readme",
+        "text": "Neuroscience",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/dh-tech/awesome-digital-humanities#readme",
+        "toRaw": "https://github.com/dh-tech/awesome-digital-humanities#readme",
+        "text": "Digital Humanities",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/IAmCoder/awesome-lucid-dreams#readme",
+        "toRaw": "https://github.com/IAmCoder/awesome-lucid-dreams#readme",
+        "text": "Lucid Dreams",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/danvoyce/awesome-creative-tech-events#readme",
+        "toRaw": "https://github.com/danvoyce/awesome-creative-tech-events#readme",
+        "text": "Creative Tech Events",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ildoc/awesome-italy-events#readme",
+        "toRaw": "https://github.com/ildoc/awesome-italy-events#readme",
+        "text": "Events in Italy",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/awkward/awesome-netherlands-events#readme",
+        "toRaw": "https://github.com/awkward/awesome-netherlands-events#readme",
+        "text": "Events in the Netherlands",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/TheJambo/awesome-testing#readme",
+        "toRaw": "https://github.com/TheJambo/awesome-testing#readme",
+        "text": "Testing",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/mojoaxel/awesome-regression-testing#readme",
+        "toRaw": "https://github.com/mojoaxel/awesome-regression-testing#readme",
+        "text": "Visual Regression Testing",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/christian-bromann/awesome-selenium#readme",
+        "toRaw": "https://github.com/christian-bromann/awesome-selenium#readme",
+        "text": "Selenium",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/SrinivasanTarget/awesome-appium#readme",
+        "toRaw": "https://github.com/SrinivasanTarget/awesome-appium#readme",
+        "text": "Appium",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sindresorhus/awesome-tap#readme",
+        "toRaw": "https://github.com/sindresorhus/awesome-tap#readme",
+        "text": "TAP",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/aliesbelik/awesome-jmeter#readme",
+        "toRaw": "https://github.com/aliesbelik/awesome-jmeter#readme",
+        "text": "JMeter",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/grafana/awesome-k6#readme",
+        "toRaw": "https://github.com/grafana/awesome-k6#readme",
+        "text": "k6",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/mxschmitt/awesome-playwright#readme",
+        "toRaw": "https://github.com/mxschmitt/awesome-playwright#readme",
+        "text": "Playwright",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/fityanos/awesome-quality-assurance-roadmap#readme",
+        "toRaw": "https://github.com/fityanos/awesome-quality-assurance-roadmap#readme",
+        "text": "Quality Assurance Roadmap",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/aliesbelik/awesome-gatling#readme",
+        "toRaw": "https://github.com/aliesbelik/awesome-gatling#readme",
+        "text": "Gatling",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/coderabbitai/awesome-coderabbit#readme",
+        "toRaw": "https://github.com/coderabbitai/awesome-coderabbit#readme",
+        "text": "CodeRabbit",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/writing-resources/awesome-scientific-writing#readme",
+        "toRaw": "https://github.com/writing-resources/awesome-scientific-writing#readme",
+        "text": "Scientific Writing",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/burningtree/awesome-json#readme",
+        "toRaw": "https://github.com/burningtree/awesome-json#readme",
+        "text": "JSON",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/tmcw/awesome-geojson#readme",
+        "toRaw": "https://github.com/tmcw/awesome-geojson#readme",
+        "text": "GeoJSON",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/jdorfman/awesome-json-datasets#readme",
+        "toRaw": "https://github.com/jdorfman/awesome-json-datasets#readme",
+        "text": "Datasets",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/secretGeek/awesomeCSV#readme",
+        "toRaw": "https://github.com/secretGeek/awesomeCSV#readme",
+        "text": "CSV",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/AchoArnold/discount-for-student-dev#readme",
+        "toRaw": "https://github.com/AchoArnold/discount-for-student-dev#readme",
+        "text": "Discounts for Student Developers",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/kyleterry/awesome-radio#readme",
+        "toRaw": "https://github.com/kyleterry/awesome-radio#readme",
+        "text": "Radio",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sindresorhus/awesome#readme",
+        "toRaw": "https://github.com/sindresorhus/awesome#readme",
+        "text": "Awesome",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/0xnr/awesome-analytics#readme",
+        "toRaw": "https://github.com/0xnr/awesome-analytics#readme",
+        "text": "Analytics",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/marmelab/awesome-rest#readme",
+        "toRaw": "https://github.com/marmelab/awesome-rest#readme",
+        "text": "REST",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/cicdops/awesome-ciandcd#readme",
+        "toRaw": "https://github.com/cicdops/awesome-ciandcd#readme",
+        "text": "Continuous Integration and Continuous Delivery",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/mmcgrana/services-engineering#readme",
+        "toRaw": "https://github.com/mmcgrana/services-engineering#readme",
+        "text": "Services Engineering",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ripienaar/free-for-dev#readme",
+        "toRaw": "https://github.com/ripienaar/free-for-dev#readme",
+        "text": "Free for Developers",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/cyberglot/awesome-answers#readme",
+        "toRaw": "https://github.com/cyberglot/awesome-answers#readme",
+        "text": "Answers",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/diessica/awesome-sketch#readme",
+        "toRaw": "https://github.com/diessica/awesome-sketch#readme",
+        "text": "Sketch",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/melvin0008/awesome-projects-boilerplates#readme",
+        "toRaw": "https://github.com/melvin0008/awesome-projects-boilerplates#readme",
+        "text": "Boilerplate Projects",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/matiassingers/awesome-readme#readme",
+        "toRaw": "https://github.com/matiassingers/awesome-readme#readme",
+        "text": "Readme",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/MyHoneyBadger/awesome-github-wiki#readme",
+        "toRaw": "https://github.com/MyHoneyBadger/awesome-github-wiki#readme",
+        "text": "GitHub Wiki",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/NARKOZ/guides#readme",
+        "toRaw": "https://github.com/NARKOZ/guides#readme",
+        "text": "Design and Development Guides",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/kilimchoi/engineering-blogs#readme",
+        "toRaw": "https://github.com/kilimchoi/engineering-blogs#readme",
+        "text": "Software Engineering Blogs",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/awesome-selfhosted/awesome-selfhosted#readme",
+        "toRaw": "https://github.com/awesome-selfhosted/awesome-selfhosted#readme",
+        "text": "Self Hosted",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/DataDaoDe/awesome-foss-apps#readme",
+        "toRaw": "https://github.com/DataDaoDe/awesome-foss-apps#readme",
+        "text": "FOSS Production Apps",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/alferov/awesome-gulp#readme",
+        "toRaw": "https://github.com/alferov/awesome-gulp#readme",
+        "text": "Gulp",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sindresorhus/amas#readme",
+        "toRaw": "https://github.com/sindresorhus/amas#readme",
+        "text": "AMA",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/stoeffel/awesome-ama-answers#readme",
+        "toRaw": "https://github.com/stoeffel/awesome-ama-answers#readme",
+        "text": "Answers",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ibaaj/awesome-OpenSourcePhotography#readme",
+        "toRaw": "https://github.com/ibaaj/awesome-OpenSourcePhotography#readme",
+        "text": "Open Source Photography",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/eug/awesome-opengl#readme",
+        "toRaw": "https://github.com/eug/awesome-opengl#readme",
+        "text": "OpenGL",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/chentsulin/awesome-graphql#readme",
+        "toRaw": "https://github.com/chentsulin/awesome-graphql#readme",
+        "text": "GraphQL",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/APA-Technology-Division/urban-and-regional-planning-resources#readme",
+        "toRaw": "https://github.com/APA-Technology-Division/urban-and-regional-planning-resources#readme",
+        "text": "Urban & Regional Planning",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/CUTR-at-USF/awesome-transit#readme",
+        "toRaw": "https://github.com/CUTR-at-USF/awesome-transit#readme",
+        "text": "Transit",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/emptymalei/awesome-research#readme",
+        "toRaw": "https://github.com/emptymalei/awesome-research#readme",
+        "text": "Research Tools",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/javierluraschi/awesome-dataviz#readme",
+        "toRaw": "https://github.com/javierluraschi/awesome-dataviz#readme",
+        "text": "Data Visualization",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/mfornos/awesome-microservices#readme",
+        "toRaw": "https://github.com/mfornos/awesome-microservices#readme",
+        "text": "Microservices",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/jagracey/Awesome-Unicode#readme",
+        "toRaw": "https://github.com/jagracey/Awesome-Unicode#readme",
+        "text": "Unicode",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/Codepoints/awesome-codepoints#readme",
+        "toRaw": "https://github.com/Codepoints/awesome-codepoints#readme",
+        "text": "Code Points",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/MunGell/awesome-for-beginners#readme",
+        "toRaw": "https://github.com/MunGell/awesome-for-beginners#readme",
+        "text": "Beginner-Friendly Projects",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/gamontal/awesome-katas#readme",
+        "toRaw": "https://github.com/gamontal/awesome-katas#readme",
+        "text": "Katas",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/drewrwilson/toolsforactivism#readme",
+        "toRaw": "https://github.com/drewrwilson/toolsforactivism#readme",
+        "text": "Tools for Activism",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/dylanrees/citizen-science#readme",
+        "toRaw": "https://github.com/dylanrees/citizen-science#readme",
+        "text": "Citizen Science",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/hobbyquaker/awesome-mqtt#readme",
+        "toRaw": "https://github.com/hobbyquaker/awesome-mqtt#readme",
+        "text": "MQTT",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/cristianoliveira/awesome4girls#readme",
+        "toRaw": "https://github.com/cristianoliveira/awesome4girls#readme",
+        "text": "For Girls",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/vorpaljs/awesome-vorpal#readme",
+        "toRaw": "https://github.com/vorpaljs/awesome-vorpal#readme",
+        "text": "Vorpal",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/vinjn/awesome-vulkan#readme",
+        "toRaw": "https://github.com/vinjn/awesome-vulkan#readme",
+        "text": "Vulkan",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/egeerardyn/awesome-LaTeX#readme",
+        "toRaw": "https://github.com/egeerardyn/awesome-LaTeX#readme",
+        "text": "LaTeX",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/antontarasenko/awesome-economics#readme",
+        "toRaw": "https://github.com/antontarasenko/awesome-economics#readme",
+        "text": "Economics",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sublimino/awesome-funny-markov#readme",
+        "toRaw": "https://github.com/sublimino/awesome-funny-markov#readme",
+        "text": "Funny Markov Chains",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/danielecook/Awesome-Bioinformatics#readme",
+        "toRaw": "https://github.com/danielecook/Awesome-Bioinformatics#readme",
+        "text": "Bioinformatics",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/hsiaoyi0504/awesome-cheminformatics#readme",
+        "toRaw": "https://github.com/hsiaoyi0504/awesome-cheminformatics#readme",
+        "text": "Cheminformatics",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/Siddharth11/Colorful#readme",
+        "toRaw": "https://github.com/Siddharth11/Colorful#readme",
+        "text": "Colorful",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/scholtzm/awesome-steam#readme",
+        "toRaw": "https://github.com/scholtzm/awesome-steam#readme",
+        "text": "Steam",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/hackerkid/bots#readme",
+        "toRaw": "https://github.com/hackerkid/bots#readme",
+        "text": "Bots",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/dastergon/awesome-sre#readme",
+        "toRaw": "https://github.com/dastergon/awesome-sre#readme",
+        "text": "Site Reliability Engineering",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/xen0l/awesome-dtrace#readme",
+        "toRaw": "https://github.com/xen0l/awesome-dtrace#readme",
+        "text": "DTrace",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/bvolpato/awesome-userscripts#readme",
+        "toRaw": "https://github.com/bvolpato/awesome-userscripts#readme",
+        "text": "Userscripts",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/tobiasbueschel/awesome-pokemon#readme",
+        "toRaw": "https://github.com/tobiasbueschel/awesome-pokemon#readme",
+        "text": "Pokémon",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/exAspArk/awesome-chatops#readme",
+        "toRaw": "https://github.com/exAspArk/awesome-chatops#readme",
+        "text": "ChatOps",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/kdeldycke/awesome-falsehood#readme",
+        "toRaw": "https://github.com/kdeldycke/awesome-falsehood#readme",
+        "text": "Falsehood",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/heynickc/awesome-ddd#readme",
+        "toRaw": "https://github.com/heynickc/awesome-ddd#readme",
+        "text": "Domain-Driven Design",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/woop/awesome-quantified-self#readme",
+        "toRaw": "https://github.com/woop/awesome-quantified-self#readme",
+        "text": "Quantified Self",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/hbokh/awesome-saltstack#readme",
+        "toRaw": "https://github.com/hbokh/awesome-saltstack#readme",
+        "text": "SaltStack",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/nicolesaidy/awesome-web-design#readme",
+        "toRaw": "https://github.com/nicolesaidy/awesome-web-design#readme",
+        "text": "Web Design",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/terkelg/awesome-creative-coding#readme",
+        "toRaw": "https://github.com/terkelg/awesome-creative-coding#readme",
+        "text": "Creative Coding",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/aviaryan/awesome-no-login-web-apps#readme",
+        "toRaw": "https://github.com/aviaryan/awesome-no-login-web-apps#readme",
+        "text": "No-Login Web Apps",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/johnjago/awesome-free-software#readme",
+        "toRaw": "https://github.com/johnjago/awesome-free-software#readme",
+        "text": "Free Software",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/podo/awesome-framer#readme",
+        "toRaw": "https://github.com/podo/awesome-framer#readme",
+        "text": "Framer",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/BubuAnabelas/awesome-markdown#readme",
+        "toRaw": "https://github.com/BubuAnabelas/awesome-markdown#readme",
+        "text": "Markdown",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/mislavcimpersak/awesome-dev-fun#readme",
+        "toRaw": "https://github.com/mislavcimpersak/awesome-dev-fun#readme",
+        "text": "Dev Fun",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/DavidLambauer/awesome-magento2#readme",
+        "toRaw": "https://github.com/DavidLambauer/awesome-magento2#readme",
+        "text": "Magento 2",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/xiaohanyu/awesome-tikz#readme",
+        "toRaw": "https://github.com/xiaohanyu/awesome-tikz#readme",
+        "text": "TikZ",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/johnjago/awesome-ad-free#readme",
+        "toRaw": "https://github.com/johnjago/awesome-ad-free#readme",
+        "text": "Ad-Free",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/roaldnefs/awesome-prometheus#readme",
+        "toRaw": "https://github.com/roaldnefs/awesome-prometheus#readme",
+        "text": "Prometheus",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/homematic-community/awesome-homematic#readme",
+        "toRaw": "https://github.com/homematic-community/awesome-homematic#readme",
+        "text": "Homematic",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sfischer13/awesome-ledger#readme",
+        "toRaw": "https://github.com/sfischer13/awesome-ledger#readme",
+        "text": "Ledger",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/thomasbnt/awesome-web-monetization#readme",
+        "toRaw": "https://github.com/thomasbnt/awesome-web-monetization#readme",
+        "text": "Web Monetization",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/johnjago/awesome-uncopyright#readme",
+        "toRaw": "https://github.com/johnjago/awesome-uncopyright#readme",
+        "text": "Uncopyright",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/Zheaoli/awesome-coins#readme",
+        "toRaw": "https://github.com/Zheaoli/awesome-coins#readme",
+        "text": "Crypto Currency Tools & Algorithms",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/zachflower/awesome-open-source-supporters#readme",
+        "toRaw": "https://github.com/zachflower/awesome-open-source-supporters#readme",
+        "text": "Open Source Supporters",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/robinstickel/awesome-design-principles#readme",
+        "toRaw": "https://github.com/robinstickel/awesome-design-principles#readme",
+        "text": "Design Principles",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/johnjago/awesome-theravada#readme",
+        "toRaw": "https://github.com/johnjago/awesome-theravada#readme",
+        "text": "Theravada",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/inspectit-labs/awesome-inspectit#readme",
+        "toRaw": "https://github.com/inspectit-labs/awesome-inspectit#readme",
+        "text": "inspectIT",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/nayafia/awesome-maintainers#readme",
+        "toRaw": "https://github.com/nayafia/awesome-maintainers#readme",
+        "text": "Open Source Maintainers",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/xxczaki/awesome-calculators#readme",
+        "toRaw": "https://github.com/xxczaki/awesome-calculators#readme",
+        "text": "Calculators",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ZYSzys/awesome-captcha#readme",
+        "toRaw": "https://github.com/ZYSzys/awesome-captcha#readme",
+        "text": "Captcha",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/markusschanta/awesome-jupyter#readme",
+        "toRaw": "https://github.com/markusschanta/awesome-jupyter#readme",
+        "text": "Jupyter",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/andrewda/awesome-frc#readme",
+        "toRaw": "https://github.com/andrewda/awesome-frc#readme",
+        "text": "FIRST Robotics Competition",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/karlhorky/awesome-speakers#readme",
+        "toRaw": "https://github.com/karlhorky/awesome-speakers#readme",
+        "text": "Speakers",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/edm00se/awesome-board-games#readme",
+        "toRaw": "https://github.com/edm00se/awesome-board-games#readme",
+        "text": "Board Games",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/uraimo/awesome-software-patreons#readme",
+        "toRaw": "https://github.com/uraimo/awesome-software-patreons#readme",
+        "text": "Software Patreons",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ecohealthalliance/awesome-parasite#readme",
+        "toRaw": "https://github.com/ecohealthalliance/awesome-parasite#readme",
+        "text": "Parasite",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/jzarca01/awesome-food#readme",
+        "toRaw": "https://github.com/jzarca01/awesome-food#readme",
+        "text": "Food",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/alexk111/awesome-bitcoin-payment-processors#readme",
+        "toRaw": "https://github.com/alexk111/awesome-bitcoin-payment-processors#readme",
+        "text": "Bitcoin Payment Processors",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/nschloe/awesome-scientific-computing#readme",
+        "toRaw": "https://github.com/nschloe/awesome-scientific-computing#readme",
+        "text": "Scientific Computing",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ScaleLeap/awesome-amazon-seller#readme",
+        "toRaw": "https://github.com/ScaleLeap/awesome-amazon-seller#readme",
+        "text": "Amazon Sellers",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/brycejohnston/awesome-agriculture#readme",
+        "toRaw": "https://github.com/brycejohnston/awesome-agriculture#readme",
+        "text": "Agriculture",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ttt30ga/awesome-product-design#readme",
+        "toRaw": "https://github.com/ttt30ga/awesome-product-design#readme",
+        "text": "Product Design",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/catalinmiron/awesome-prisma#readme",
+        "toRaw": "https://github.com/catalinmiron/awesome-prisma#readme",
+        "text": "Prisma",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/simskij/awesome-software-architecture#readme",
+        "toRaw": "https://github.com/simskij/awesome-software-architecture#readme",
+        "text": "Software Architecture",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/stevesong/awesome-connectivity-info#readme",
+        "toRaw": "https://github.com/stevesong/awesome-connectivity-info#readme",
+        "text": "Connectivity Data and Reports",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/stackshareio/awesome-stacks#readme",
+        "toRaw": "https://github.com/stackshareio/awesome-stacks#readme",
+        "text": "Stacks",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/cytodata/awesome-cytodata#readme",
+        "toRaw": "https://github.com/cytodata/awesome-cytodata#readme",
+        "text": "Cytodata",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/davisonio/awesome-irc#readme",
+        "toRaw": "https://github.com/davisonio/awesome-irc#readme",
+        "text": "IRC",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/cenoura/awesome-ads#readme",
+        "toRaw": "https://github.com/cenoura/awesome-ads#readme",
+        "text": "Advertising",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/philsturgeon/awesome-earth#readme",
+        "toRaw": "https://github.com/philsturgeon/awesome-earth#readme",
+        "text": "Earth",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/gruhn/awesome-naming#readme",
+        "toRaw": "https://github.com/gruhn/awesome-naming#readme",
+        "text": "Naming",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/iipc/awesome-web-archiving#readme",
+        "toRaw": "https://github.com/iipc/awesome-web-archiving#readme",
+        "text": "Web Archiving",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/schlessera/awesome-wp-cli#readme",
+        "toRaw": "https://github.com/schlessera/awesome-wp-cli#readme",
+        "text": "WP-CLI",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/mourarthur/awesome-credit-modeling#readme",
+        "toRaw": "https://github.com/mourarthur/awesome-credit-modeling#readme",
+        "text": "Credit Modeling",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/ansible-community/awesome-ansible#readme",
+        "toRaw": "https://github.com/ansible-community/awesome-ansible#readme",
+        "text": "Ansible",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/keller-mark/awesome-biological-visualizations#readme",
+        "toRaw": "https://github.com/keller-mark/awesome-biological-visualizations#readme",
+        "text": "Biological Visualizations",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/make-github-pseudonymous-again/awesome-qr-code#readme",
+        "toRaw": "https://github.com/make-github-pseudonymous-again/awesome-qr-code#readme",
+        "text": "QR Code",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sdassow/awesome-veganism#readme",
+        "toRaw": "https://github.com/sdassow/awesome-veganism#readme",
+        "text": "Veganism",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/mbiesiad/awesome-translations#readme",
+        "toRaw": "https://github.com/mbiesiad/awesome-translations#readme",
+        "text": "Translations",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/dersvenhesse/awesome-scriptable#readme",
+        "toRaw": "https://github.com/dersvenhesse/awesome-scriptable#readme",
+        "text": "Scriptable",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/msub2/awesome-webxr#readme",
+        "toRaw": "https://github.com/msub2/awesome-webxr#readme",
+        "text": "WebXR",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/atkirtland/awesome-computational-geometry#readme",
+        "toRaw": "https://github.com/atkirtland/awesome-computational-geometry#readme",
+        "text": "Computational Geometry",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/osmlab/awesome-openstreetmap#readme",
+        "toRaw": "https://github.com/osmlab/awesome-openstreetmap#readme",
+        "text": "OpenStreetMap",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/inoue0426/awesome-computational-biology#readme",
+        "toRaw": "https://github.com/inoue0426/awesome-computational-biology#readme",
+        "text": "Computational Biology",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/readthedocs-examples/awesome-read-the-docs#readme",
+        "toRaw": "https://github.com/readthedocs-examples/awesome-read-the-docs#readme",
+        "text": "Read the Docs",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/mcanouil/awesome-quarto#readme",
+        "toRaw": "https://github.com/mcanouil/awesome-quarto#readme",
+        "text": "Quarto",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/hallvaaw/awesome-biological-image-analysis#readme",
+        "toRaw": "https://github.com/hallvaaw/awesome-biological-image-analysis#readme",
+        "text": "Biological Image Analysis",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sindresorhus/awesome-chatgpt#readme",
+        "toRaw": "https://github.com/sindresorhus/awesome-chatgpt#readme",
+        "text": "ChatGPT",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/sindresorhus/awesome-whisper#readme",
+        "toRaw": "https://github.com/sindresorhus/awesome-whisper#readme",
+        "text": "Whisper",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/shi-rudo/awesome-stock-trading#readme",
+        "toRaw": "https://github.com/shi-rudo/awesome-stock-trading#readme",
+        "text": "Stock Trading",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/airscripts/awesome-steam-deck#readme",
+        "toRaw": "https://github.com/airscripts/awesome-steam-deck#readme",
+        "text": "Steam Deck",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/lunohodov/awesome-astrophotography#readme",
+        "toRaw": "https://github.com/lunohodov/awesome-astrophotography#readme",
+        "text": "Astrophotography",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/dstdev/awesome-hpc#readme",
+        "toRaw": "https://github.com/dstdev/awesome-hpc#readme",
+        "text": "HPC",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/FoxFil/awesome-geocaching#readme",
+        "toRaw": "https://github.com/FoxFil/awesome-geocaching#readme",
+        "text": "Geocaching",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/slevithan/awesome-regex#readme",
+        "toRaw": "https://github.com/slevithan/awesome-regex#readme",
+        "text": "Regex",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/lutzh/awesome-event-driven-architecture#readme",
+        "toRaw": "https://github.com/lutzh/awesome-event-driven-architecture#readme",
+        "text": "Event-Driven Architecture",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/idematos/awesome-permacomputing#readme",
+        "toRaw": "https://github.com/idematos/awesome-permacomputing#readme",
+        "text": "Permacomputing",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/topics/awesome",
+        "toRaw": "https://github.com/topics/awesome",
+        "text": "All Awesome Lists",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://awesomelists.top",
+        "toRaw": "https://awesomelists.top",
+        "text": "Awesome Search",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/basharovV/StumbleUponAwesome",
+        "toRaw": "https://github.com/basharovV/StumbleUponAwesome",
+        "text": "StumbleUponAwesome",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://github.com/umutphp/awesome-cli",
+        "toRaw": "https://github.com/umutphp/awesome-cli",
+        "text": "Awesome CLI",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://awesome.digitalbunker.dev",
+        "toRaw": "https://awesome.digitalbunker.dev",
+        "text": "Awesome Viewer",
+        "embed": false,
+        "internal": false
+      },
+      {
+        "from": "root.md",
+        "to": "https://www.trackawesomelist.com",
+        "toRaw": "https://www.trackawesomelist.com",
+        "text": "Track Awesome List",
+        "embed": false,
+        "internal": false
+      }
+    ],
+    "tasks": []
+  }
+]

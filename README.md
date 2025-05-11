@@ -46,3 +46,30 @@ Backend:
 - PostgreSQL
 - knex database layer abstraction
 - Markdown DB as markdown abstraction layer
+
+
+# Tools
+
+During the developement, i found some usefull online/offline tools to help. here is the list
+- github cli
+- AST explorer: https://astexplorer.net/
+
+
+# challenges
+
+many README does include html that makes it difficult to parse.
+ex: curl -H 'Accept: application/vnd.github.v3.raw' https://api.github.com/repos/sindresorhus/awesome/contents/readme.md
+
+```
+<br>
+<hr>
+<br>
+<br>
+<a href="https://vshymanskyy.github.io/StandWithUkraine">
+	<img src="https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg">
+</a>
+<br>
+<br>
+<hr>
+<br>
+```
