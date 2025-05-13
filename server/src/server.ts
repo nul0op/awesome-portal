@@ -3,13 +3,14 @@ import { scanAW } from './fetcher';
 
 const app = express();
 const port = 3000;
+const AW_ROOT = 'https://github.com/sindresorhus/awesome';
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
 app.listen(port, async () => {
-    await scanAW();
+    await scanAW(AW_ROOT);
 
     return console.log(`Express is listening at http://localhost:${port}`);
 });

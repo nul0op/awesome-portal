@@ -53,9 +53,22 @@ Backend:
 During the developement, i found some usefull online/offline tools to help. here is the list
 - github cli
 - AST explorer: https://astexplorer.net/
+- https://www.epochconverter.com/ (to see how many minutes i have to wait against the gitlab api ate limiting when the code goes wild)
+- 
 
+# Sources
+- https://docs.github.com/en/rest/rate-limit/rate-limit?apiVersion=2022-11-28
 
 # challenges
+
+## Gitlab API rate limiting
+
+for unauthenticated request is 60 requests / hour. way to low
+making authenticated calls with personal token raise it to 5000 requests / hour. this is okay, but we made up to 5 requests / repo for the scanning process.
+we need to throttle the code.
+
+
+## index page content
 
 many README does include html that makes it difficult to parse.
 ex: curl -H 'Accept: application/vnd.github.v3.raw' https://api.github.com/repos/sindresorhus/awesome/contents/readme.md

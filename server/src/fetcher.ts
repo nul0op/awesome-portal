@@ -9,38 +9,105 @@
 */
 // import * as cheerio from 'cheerio';
 import marked from 'marked-ast';
+import { ERROR_AWL_NOT_GITHUB, ERROR_AWL_NO_INDEX_PAGE } from './models/error';
 
-// const AW_ROOT='https://raw.githubusercontent.com/sindresorhus/awesome/refs/heads/main/readme.md'
-// const AW_ROOT='https://github.com/sindresorhus/awesome/tree/main';
-// const AW_ROOT = 'https://raw.githubusercontent.com/sindresorhus/awesome/refs/heads/main/readme.md';
-// const AW_ROOT = 'https://github.com/agucova/awesome-esp#readme';
-// const AW_ROOT = 'https://github.com/biologist79/ESPuino';
-const AW_ROOT = ' https://api.github.com/repos/sindresorhus/awesome/contents/readme.md';
+// thinks to check
+// if README in capital is 404, just try in lowercase
+// https://api.github.com/repos/${username}/${repos}/contents/{README|readme}.md
+// const AW_ROOT = 'https://api.github.com/repos/sindresorhus/awesome/contents/readme.md';
+
 const AW_BADGE_IS_PRESENT_LIMIT=1*1024;
 // const AW_BADGE_REGEX='[![Awesome](https://awesome.re/badge.*svg)](https://awesome.re)'
 const AW_BADGE_REGEX='*wesome*';
 
+const GH_TOKEN=process.env.GH_TOKEN;
+const GH_RATE_LIMITING = 1           // request / second (5000/3600) => 1/s
+
+let rateLimitedToken = [];
+
+// if the rateLimitedToken list is empty, it means someone took the slot,
+// will inject a new token after the delay
+let rateLimitInterval = undefined;
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+// auth is added
+//
+// 'x-ratelimit-limit', '5000']
+// 'x-ratelimit-remaining', '4983']
+// 'x-ratelimit-reset', '1747022695']
+// 'x-ratelimit-resource', 'core']
+// 'x-ratelimit-used', '17']
+let ghFetch = async (url, options) => {
+    if (rateLimitInterval === undefined) {
+        rateLimitInterval = setInterval( () => {
+            for (let i = 0; i < GH_RATE_LIMITING; i++) {
+                rateLimitedToken.push('I_M_A_TOKEN');
+            }
+        }, 1000);
+    };
+
+    // rate limiting stuff
+    if (rateLimitedToken.length === 0) {
+        do {
+            process.stdout.write(".");
+            await sleep(100);
+        } while (rateLimitedToken.length === 0)
+    }
+    rateLimitedToken.pop();
+
+    if (options.headers === undefined) options.headers = {};
+
+    options.headers["Authorization"] = `Bearer ${GH_TOKEN}`;
+    let response = await fetch(url, options);
+
+    return response;
+} 
+
 /** from here to there:
- * https://github.com/michelpereira/awesome-games-of-coding#readme
- * https://raw.githubusercontent.com/michelpereira/awesome-games-of-coding/refs/heads/main/readme.md
+ * thinks to check
+ * if README in capital is 404, just try in lowercase. we give a try using an HEAD request
+ * https://api.github.com/repos/${username}/${repos}/contents/{README|readme}.md
+ * if the url doesn't looks like a GH repos, throw error "NOT_A_GITHUB_REPO"
+
  */
-let ghGetRawAddress = (url: string) => {
-    let url1 = url.replace('https://github.com/','https://raw.githubusercontent.com/');
-    let url2 = url1.replace('#readme','');
-    let url3 = url2 + '/refs/heads/main/README.md';
-    return url3;
+let ghGetAPIAddress = async (url: string): Promise<string> => {
+    if (!url.startsWith('https://github.com/')) throw ERROR_AWL_NOT_GITHUB;
+
+    let username = url.split('/')[3];
+    let repo = url.split('/')[4];
+    let apiURL = `https://api.github.com/repos/${username}/${repo}/contents/`;
+
+    let response = null;
+
+    for (let page of ['README.md','readme.md']) {
+        console.debug("trying: ", page);
+        response = await ghFetch(apiURL+page, {
+            method: "HEAD"
+        });
+        if (response.status === 200) return apiURL+page;
+        console.error(response.status, "/", response.statusText);
+        for (let header of response.headers.entries()) {
+            if (header[0].startsWith('x-ratelimit-'))
+                console.log(header);
+        };
+    }
+
+    throw ERROR_AWL_NO_INDEX_PAGE;
 }
 
 // type = heading: this is a category (see text[], level, raw)
 // type = list: see body[] and ierate
-let recurseAST = (ast, level, headings) => {
+let recurseAST = (ast, level, headings, elements) => {
     if (!Array.isArray(ast)) return;
     let combo = {
         level: 0,
+        headings: [],
         name: null,
         description: null,
         href: null
     };
+    let content = [];
 
     for (let node of ast) {
         let type = node.type;
@@ -74,12 +141,12 @@ let recurseAST = (ast, level, headings) => {
                 break;
 
             case "list":
-                recurseAST(node.body, level+1, headings);
+                recurseAST(node.body, level+1, headings, elements);
                 break;
 
             case "listitem":
                 // console.log("listitem: ", node.body.length);
-                recurseAST(node.text, level+1, headings);
+                recurseAST(node.text, level+1, headings, elements);
                 break;
 
             case "link":
@@ -93,13 +160,21 @@ let recurseAST = (ast, level, headings) => {
                     if (ast.length === 1) combo.description = "EMPTY";
                 }
                 break;
+
+            default:
+                // console.log(node);
+                recurseAST(node.text, level+1, headings, elements);
+                break;
+                
         }
 
         if (combo.level && combo.name && combo.description && combo.href) {
-            console.log(`${ident(level)}> ${headings.join(',')}: [${combo.name}] (${combo.href}) ${combo.description}`);
+            // console.log(`${ident(level)}> ${headings.join(',')}: [${combo.name}] (${combo.href}) ${combo.description}`);
+            combo.headings = headings;
+            elements.push(combo);
         }
     }
-    return
+    return elements;
 }
 
 let ident = (level: number) => {
@@ -110,36 +185,58 @@ let ident = (level: number) => {
     return ident;
 }
 
-let scanAW = async () => {
-    // let url: string = ghGetRawAddress(AW_ROOT);
-    // console.log("getting url: ", url);
-    let url: string = AW_ROOT;
-    const headers = new Headers();
-    headers.set("Accept", "application/vnd.github.v3.raw");
+let scanAW = async (repo) => {
+    let url = null;
 
-    let response: Response = await fetch(
+    try {
+        url = await ghGetAPIAddress(repo);
+    } catch (e) {
+        // end of this branch
+        console.log("Oops");
+        return;
+    }
+
+    console.debug(`getting index page ${url}`);
+
+    let response: Response = await ghFetch(
         url, {
             method: 'GET',
-            headers: headers
+            headers: { 
+                "Accept": "application/vnd.github.v3.raw",
+            }
           }
     );
-    // console.log(response);
-    if (response.status === 200) {
-        let content = await response.text();
-        let firstHEadingPosition = content.search(/^#/m);
-        let markdown = content.substring(firstHEadingPosition);
 
-        // temp
-        // markdown = markdown.substring(0,2000);
-        let ast = marked.parse(markdown);
-        // console.log(JSON.stringify(ast));
-        recurseAST(ast, 0, []);
-    } else if (response.status === 301) {
-        console.log("Oops: redirect for ", url);
-    
-    } else {
-        console.log("Oops: other error: ", response.status, " for: ", url)
+    if (response.status === 301) {
+        let redirectURL = response.headers['Location'];
+        console.debug(`got a redirect, retrying with: ${redirectURL}`)
+        response = await ghFetch(
+            url, {
+                method: 'GET',
+                headers: {
+                    "Accept": "application/vnd.github.v3.raw",
+                }
+              }
+        );    
     }
+
+    if (response.status !== 200) throw ERROR_AWL_NO_INDEX_PAGE;
+
+    let content = await response.text();
+    let firstHeadingPosition = content.search(/^#/m);
+    let markdown = content.substring(firstHeadingPosition);
+    let ast = marked.parse(markdown);
+    let awesomeElements = recurseAST(ast, 0, [], []);
+    console.log(`got ${awesomeElements.length} result`);
+    console.log(awesomeElements);
+
+    let max = 5;
+    let i = 0;
+    for (let element of awesomeElements) {
+        if (i++ > max) break;
+        // console.log(element);
+        scanAW(element.href);
+    };
 
     // const $ = cheerio.load(content);
 
