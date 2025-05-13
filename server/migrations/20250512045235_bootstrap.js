@@ -4,7 +4,7 @@ export async function up(knex) {
         table.uuid("external_id");
         table.integer("level");
         table.string("name", 64).notNullable();
-        table.string("description", 128);
+        table.string("description", 255);
         table.string("href", 255);
     });
 };

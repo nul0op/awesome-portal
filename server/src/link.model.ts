@@ -1,8 +1,7 @@
-import { Knex } from "knex";
 import awesomedb from "./awesomedb";
 import { AwesomeLink } from "./models/Awesome";
 
-export const getAll = () => {
+const getAllLink = () => {
     console.log("here we are");
 
     // let q: Knex.QueryBuilder = 
@@ -12,8 +11,23 @@ export const getAll = () => {
         name: "name",
         description: "description",
         href: "href",
+
     }).then( (rows) => {
-            console.log(rows);
-        }
-    );
+        console.log(rows);
+        return rows;
+    });
+}
+
+const saveLink = async (link: AwesomeLink) => {
+    await awesomedb('link').insert({
+        external_id: link.getExternalId(),
+        level: link.getLevel(),
+        name: link.getName(),
+        description: link.getDescription(),
+        href: link.getHref(),
+    });
+}
+
+export {
+    getAllLink, saveLink
 }
