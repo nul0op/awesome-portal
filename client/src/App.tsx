@@ -14,6 +14,11 @@ import { ToolbarActionsSearch } from './lib/toolbar';
 import { login } from './lib/auth';
 import Snackbar from '@mui/material/Snackbar';
 import Alert from '@mui/material/Alert';
+import AwesomeCard from './components/Card';
+import CardContent from '@mui/material/CardContent';
+import CardActions from '@mui/material/CardActions';
+import Button from '@mui/material/Button';
+import Card from '@mui/material/Card';
 
 let ITEMS = [
   { id: 'tree-view-community', label: 'TEST' },
@@ -99,17 +104,11 @@ const demoTheme = createTheme({
 
 function DemoPageContent({ pathname }: { pathname: string }) {
   return (
-    <Box
-      sx={{
-        py: 4,
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        textAlign: 'center',
-      }}
-    >
-      <Typography>Dashboard content for {pathname}</Typography>
-    </Box>
+    <>
+      <Box sx={{ minWidth: 275 }}>
+        <AwesomeCard/>
+      </Box>
+    </>
   );
 }
 

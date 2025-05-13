@@ -5,7 +5,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 export default {
-  development: {
+  // development: {
     client: 'pg',
     connection: {
       host: process.env.DB_HOST,
@@ -25,5 +25,5 @@ export default {
     seeds: {
       directory: "./seeds",
     },
-  },
+  // },
 };
