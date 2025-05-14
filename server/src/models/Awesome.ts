@@ -1,89 +1,78 @@
-import md5 from 'md5';
+import crypto from 'crypto';
 
 class AwesomeLink {
-    private level: number = null;
-    private name: string = null;
-    private description: string = null;
-    private href: string = null;
-    private externalId: string = null;
-
-    setLevel(level: number) {
-        this.level = level;
+    private _name: string = null;
+    public get name(): string {
+        return this._name;
+    }
+    public set name(value: string) {
+        this._name = value;
     }
 
-    setName(name: string|null) {
-        this.name = name;
+    private _subscribersCount: number = 0;
+    public get subscribersCount(): number {
+        return this._subscribersCount;
+    }
+    public set subscribersCount(value: number) {
+        this._subscribersCount = value;
     }
 
-    setDescription(description: string) {
-        this.description = description;
+    private _watchersCount: number = 0;
+    public get watchersCount(): number {
+        return this._watchersCount;
+    }
+    public set watchersCount(value: number) {
+        this._watchersCount = value;
     }
 
-    setHref(href: string|null) {
-        this.href = href;
+    private _description: string = null;
+    public get description(): string {
+        return this._description;
+    }
+    public set description(value: string) {
+        this._description = value;
     }
 
-    getLevel(): number|null {
-        return this.level;
+    private _cloneUrl: string = null;
+    public get cloneUrl(): string {
+        return this._cloneUrl;
+    }
+    public set cloneUrl(value: string) {
+        this._cloneUrl = value;
     }
 
-    getName(): string|null {
-        return this.name;
+    private _readmeUrl: string = null;
+    public get readmeUrl(): string {
+        return this._readmeUrl;
+    }
+    public set readmeUrl(value: string) {
+        this._readmeUrl = value;
     }
 
-    getDescription(): string|null {
-        return this.description;
+    private _originUrl: string = null;
+    public get originUrl(): string {
+        return this._originUrl;
+    }
+    public set originUrl(value: string) {
+        this._originUrl = value;
     }
 
-    getHref(): string {
-        // if (this.href === null) return ""
-        return this.href;
+    private _externalId: string = null;
+    public get externalId(): string {
+        return crypto.createHmac("sha256", "imasecret")
+            .update(this._cloneUrl)
+            .digest('hex');
+    }
+    
+    private _level: number = 0;
+    public get level(): number {
+        return this._level;
     }
 
-    getExternalId(): string {
-        return md5(this.href);
+    public set level(value: number) {
+        this._level = value;
     }
 }
-
-
-class AwesomeProject {
-    private name: string = null;
-    subscriberCount: number = 0;
-    watchersCount: number = 0;
-    description: string = null;
-    cloneUrl: string = null;
-    readmeUrl: string = null;
-
-    setReadmeUrl(url: string) {
-        this.readmeUrl = url;
-    }
-
-    setName(name: string|null) {
-        this.name = name;
-    }
-
-    getReadmeUrl(): string {
-        return this.readmeUrl;
-    }
-
-    getName(): string {
-        if (this.name === null) return "Unspecified";
-        return this.name;
-    }
-}
-
-//   isLogged(): boolean {
-//     return this.jwtToken ? true : false;
-//   }
-
-//   logout(): void {
-//     this.jwtToken = null;
-//   }
-
-//   toString(): String {
-//     return `name: ${this.name}, isLogged: ${this.isLogged()}, token (redacted): ${this.jwtToken?.substring(1,10)}`;
-//   }
-// }
 
 // export type {
 //   "xxx",
@@ -92,5 +81,4 @@ class AwesomeProject {
 // Class objects
 export {
     AwesomeLink,
-    AwesomeProject
 };

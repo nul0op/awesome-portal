@@ -1,8 +1,9 @@
 import marked from 'marked-ast';
 import dotenv from 'dotenv';
-import { AwesomeLink, AwesomeProject } from './models/Awesome';
+import { AwesomeLink } from './models/Awesome';
 import { ERROR_AWL_NOT_GITHUB, ERROR_AWL_NO_INDEX_PAGE } from './models/Error';
 import { AW_ROOT } from './models/global';
+import { saveLink } from './link.model';
 
 dotenv.config();
 
@@ -25,7 +26,7 @@ let throttledFetch = async (url: string, options: RequestInit) => {
             for (let i = 0; i < GH_RATE_LIMITING; i++) {
                 rateLimitedToken.push('I_M_A_TOKEN');
             }
-        }, 1000);
+        }, 500);
     };
 
     if (rateLimitedToken.length === 0) {
@@ -46,14 +47,15 @@ let throttledFetch = async (url: string, options: RequestInit) => {
     return response;
 } 
 
-
 /** 
  * using the github REST api: 
  * - find the README url (can be uppercase or lowercase)
  * - get the project metadata object
  */
-let getProjectMeta = async (url: string): Promise<AwesomeProject> => {
-    if (!url.startsWith('https://github.com/')) throw new ERROR_AWL_NOT_GITHUB("The website is outside github");
+let getProjectMeta = async (url: string): Promise<AwesomeLink> => {
+    if (!url.startsWith('https://github.com/')) {
+        throw new ERROR_AWL_NOT_GITHUB("The website is outside github");
+    }
 
     let username = url.split('/')[3];
     let repo = url.split('/')[4];
@@ -66,7 +68,7 @@ let getProjectMeta = async (url: string): Promise<AwesomeProject> => {
 
     let apiURL = `https://api.github.com/repos/${username}/${repo}/contents/`;
 
-    let projectMeta = new AwesomeProject();
+    let projectMeta = new AwesomeLink();
     let response = null;
 
     for (let page of ['README.md','readme.md']) {
@@ -75,12 +77,12 @@ let getProjectMeta = async (url: string): Promise<AwesomeProject> => {
         });
 
         if (response.status === 200) {
-            projectMeta.setReadmeUrl(apiURL+page);
+            projectMeta.readmeUrl = apiURL+page;
             break;
         }
     }
 
-    if (!projectMeta.getReadmeUrl)
+    if (!projectMeta.readmeUrl)
         throw new ERROR_AWL_NO_INDEX_PAGE('There is no README file to look at in this project');
 
     apiURL = `https://api.github.com/repos/${username}/${repo}`;
@@ -90,10 +92,12 @@ let getProjectMeta = async (url: string): Promise<AwesomeProject> => {
 
     if (response.status === 200) {
         let data = await response.json();
+        projectMeta.name = data.name || "";
         projectMeta.description = data.description || "";
-        projectMeta.subscriberCount = data.subscriber_count || 0;
+        projectMeta.subscribersCount = data.subscriber_count || 0;
         projectMeta.watchersCount = data.watchers_count || 0
         projectMeta.cloneUrl = data.clone_url || "";
+        projectMeta.originUrl = url;
     }
 
     // console.debug("  found metadata: ", projectMeta);
@@ -175,11 +179,10 @@ let recurseAST = (ast, level, headings, foundLinks: AwesomeLink[]) => {
         if (combo.level && combo.name && combo.description && combo.href) {
             combo.headings = headings;
             let link = new AwesomeLink();
-            let _s = combo.description.replace(/^.-./,'')
-            link.setDescription(_s);
-            link.setName(combo.name);
-            link.setLevel(combo.level);
-            link.setHref(combo.href);
+            link.description = combo.description.replace(/^.-./,'');
+            link.name = combo.name;
+            link.level = combo.level;
+            link.readmeUrl = combo.href;
             foundLinks.push(link);
         }
     }
@@ -198,16 +201,32 @@ let ident = (level: number) => {
 // it can be another Awesome list to follow or a project page outside of github (we stop at il)
 // allong the way, we try to gather as much informations as we can on the content hosted
 //
-let scanAW = async (repo: string) => {
-    console.debug(`scanning git repository: ${repo}`);
+let scanAW = async (repo: string, depth: number) => {
+    console.debug(`[${depth}]: scanning git repository: ${repo}`);
     let projectMeta = null;
 
     try {
         projectMeta = await getProjectMeta(repo);
 
     } catch (error) {
-        // FIXME: find a way to save some metadata from website outside GitHub ?
-        // console.error(error.name);
+        // FIXME: find a way to save get usefull metadata from website outside GitHub ?
+        // FIXME: go get the HEAD of the website and the META tags ?";
+        // FIXME: why should i go look at the constructor ?
+        // FIXME: get head and use last-modified: Thu, 08 May 2025 08:35:35 GMT (curl --head https://nodejs.org/api/fs.html)
+        if (error.constructor.name === "ERROR_AWL_NOT_GITHUB") {
+            console.log(`  AWESOME: found an individual project outside GitHub. saving it to the index`);
+            let projectMeta = new AwesomeLink();
+            projectMeta.description = "Unknown, outside GitHub !";
+            projectMeta.subscribersCount = 0;
+            projectMeta.watchersCount = 0
+            projectMeta.cloneUrl = null;
+            projectMeta.readmeUrl = null;
+            projectMeta.originUrl = repo;
+            console.log("  SAVING: ", projectMeta);
+            saveLink(projectMeta);
+            return;
+        }
+
         console.debug(`  no index page found (${error.message})`);
         return;
     }
@@ -218,7 +237,7 @@ let scanAW = async (repo: string) => {
     //     throw ERROR_AWL_NO_INDEX_PAGE;
     // console.log(projectMeta);
     let response: Response = await throttledFetch(
-        projectMeta.getReadmeUrl(), {
+        projectMeta.readmeUrl, {
             method: 'GET',
             headers: { 
                 "Accept": "application/vnd.github.v3.raw",
@@ -252,18 +271,20 @@ let scanAW = async (repo: string) => {
     if (
         repo !== AW_ROOT &&
         !content.match(/https\:\/\/awesome\.re\/badge/)) {
-        // console.debug(` readme file doesn't looks like a Awesome List page`);
-        // throw ERROR_AWL_NO_INDEX_PAGE;
-        
+
         // we have reached an leaf, go get the project metadata before closing this branch
         console.log(`  AWESOME: found an individual project inside GitHub. saving it to the index`);
         // FIXME: save it !
+        console.log("  SAVING: ", projectMeta);
+        await saveLink(projectMeta);
+        // terminating the branch
         return [];
     };
     
-    console.log("  looks like an Awesome index, walk over it.")
     // at this point, we are on a README, tagged as an Awesome List content
     // remove garbage html header from github
+    console.log("  looks like an Awesome index, walk over it.")
+
     let firstHeadingPosition = content.search(/^#/m);
     let markdown = content.substring(firstHeadingPosition);
     let ast = marked.parse(markdown);
@@ -271,11 +292,11 @@ let scanAW = async (repo: string) => {
 
     console.log(`  found ${awesomeLinks.length} links`);
 
-    let max = 5;
-    let i = 0;    
+    let max = 99;
+    let i = 0;
     for (let link of awesomeLinks) {
         if (i++ > max) break;
-        await scanAW(link.getHref());
+        await scanAW(link.readmeUrl, depth++);
     };
 
     return awesomeLinks;

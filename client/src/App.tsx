@@ -1,6 +1,5 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
 import { createTheme } from '@mui/material/styles';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
@@ -14,11 +13,10 @@ import { ToolbarActionsSearch } from './lib/toolbar';
 import { login } from './lib/auth';
 import Snackbar from '@mui/material/Snackbar';
 import Alert from '@mui/material/Alert';
-import AwesomeCard from './components/Card';
-import CardContent from '@mui/material/CardContent';
-import CardActions from '@mui/material/CardActions';
-import Button from '@mui/material/Button';
-import Card from '@mui/material/Card';
+import AwesomeCardList from './components/AwesomeCardList';
+import Container from '@mui/material/Container';
+import Stack from '@mui/material/Stack';
+import CssBaseline from '@mui/material/CssBaseline';
 
 let ITEMS = [
   { id: 'tree-view-community', label: 'TEST' },
@@ -105,9 +103,13 @@ const demoTheme = createTheme({
 function DemoPageContent({ pathname }: { pathname: string }) {
   return (
     <>
-      <Box sx={{ minWidth: 275 }}>
-        <AwesomeCard/>
-      </Box>
+      <CssBaseline />
+      <Container maxWidth={false} disableGutters style={{
+        display: 'flex',
+        flexWrap: 'wrap',
+      }}>
+        <AwesomeCardList/>
+      </Container>
     </>
   );
 }
@@ -155,7 +157,8 @@ export default function App() {
             toolbarActions: ToolbarActionsSearch,
           }}
         >
-          <DemoPageContent pathname={pathname} />
+          <DemoPageContent 
+            pathname={pathname} />
         </DashboardLayout>
         <div>
       <Snackbar open={open} autoHideDuration={6000}>
