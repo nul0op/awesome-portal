@@ -7,13 +7,14 @@ export default function AwesomeCard(props: any) {
                 style={{ 
                     // minWidth: '30%',
                     // width: '100%',
-                    border: '1px dashed grey',
+                    border: '0px dashed grey',
                     margin: '4px',
+                    padding: '0px'
                     // flex: 1,
                 }}
                 variant="outlined">
                 <CardContent>
-                    <Typography gutterBottom sx={{ color: 'text.secondary', fontSize: 14 }}>
+                    <Typography gutterBottom sx={{ color: 'text.secondary', fontSize: 14, margin: '0px' }}>
                     <Link href={props.link.originUrl}>{props.link.name}</Link>
                     </Typography>
                     {/* <Typography variant="h5" component="div">

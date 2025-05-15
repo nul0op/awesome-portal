@@ -136,3 +136,6 @@ dist
 .pnp.*
 
 **/package-lock.json
+server/secure
+client/secure
+

@@ -1,6 +1,8 @@
 import express from 'express';
 import { getAllLink, saveLink } from './link.model';
 import cors from 'cors';
+import authenticateToken from '../middleware/authenticateToken';
+
 // import { fileURLToPath } from 'url';
 
 const app = express();
@@ -17,6 +19,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
+// app.get('/links', authenticateToken, async (req, res) => {
 app.get('/links', async (req, res) => {
   res.send(await getAllLink());
 });

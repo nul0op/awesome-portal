@@ -1,8 +1,23 @@
 import { Stack, Tooltip, IconButton, TextField } from "@mui/material";
 import { ThemeSwitcher } from "@toolpad/core";
 import SearchIcon from '@mui/icons-material/Search';
+import { ContextProvider } from "../ContextProvider";
+// import { getLinkContext, getUserContext } from "../ContextProvider";
 
 function ToolbarActionsSearch() {
+
+    let searchOnChangeHandler = () => {
+      console.log("clicking on search !");
+
+      // let userContext = getUserContext();
+      // let { linkList, setLinkList } = getLinkContext();
+
+      let userContext = ContextProvider;
+      // let { LinkList, setLinkList } = ContextProvider.userContext;
+
+      // console.log(userContext.accessToken);
+    }
+
     return (
       <Stack direction="row">
         <Tooltip title="Search" enterDelay={1000}>
@@ -13,12 +28,14 @@ function ToolbarActionsSearch() {
               sx={{
                 display: { xs: 'inline', md: 'none' },
               }}
+              onClick={ searchOnChangeHandler }
             >
               <SearchIcon />
             </IconButton>
           </div>
         </Tooltip>
         <TextField
+          // onChange={ () => { searchOnChangeHandler() } }
           label="Search"
           variant="outlined"
           size="small"

@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Box from '@mui/material/Box';
 import { createTheme } from '@mui/material/styles';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
@@ -10,13 +9,22 @@ import { AppProvider, type Navigation, type Router, type Session } from '@toolpa
 import { DashboardLayout } from '@toolpad/core/DashboardLayout';
 import { Account } from '@toolpad/core/Account';
 import { ToolbarActionsSearch } from './lib/toolbar';
-import { login } from './lib/auth';
 import Snackbar from '@mui/material/Snackbar';
 import Alert from '@mui/material/Alert';
 import AwesomeCardList from './components/AwesomeCardList';
 import Container from '@mui/material/Container';
-import Stack from '@mui/material/Stack';
 import CssBaseline from '@mui/material/CssBaseline';
+import { useMemo, useState } from 'react';
+import { getAuth, GoogleAuthProvider, signInWithPopup, type User } from "firebase/auth";
+import { ContextProvider, getUserContext } from "./ContextProvider.tsx";
+import firebaseConfig from "../firebaseconfig";
+import { initializeApp } from 'firebase/app';
+import type { UserSession } from './Types.tsx';
+
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+auth.languageCode = 'en';
+const provider = new GoogleAuthProvider();
 
 let ITEMS = [
   { id: 'tree-view-community', label: 'TEST' },
@@ -26,17 +34,6 @@ let ITEMS = [
   { id: 'tree-view-community5', label: 'TEST5' },
   { id: 'tree-view-community6', label: 'TEST6' },
 ];
-
-// const Item = styled(Paper)(({ theme }) => ({
-//   backgroundColor: '#fff',
-//   ...theme.typography.body2,
-//   padding: theme.spacing(1),
-//   textAlign: 'center',
-//   color: (theme.vars ?? theme).palette.text.secondary,
-//   ...theme.applyStyles('dark', {
-//     backgroundColor: '#1A2027',
-//   }),
-// }));
 
 const NAVIGATION: Navigation = [
   {
@@ -100,13 +97,72 @@ const demoTheme = createTheme({
   },
 });
 
-function DemoPageContent({ pathname }: { pathname: string }) {
+const login = async (setSession: any, setAlert: Function, setMessage: Function, userContext: UserSession) => {
+    console.log("inside login");
+
+    auth.onAuthStateChanged((user) => {
+        if (user) {
+            userContext.accessToken = user.accessToken;
+
+            // FIXME: why does it warns me on this ?
+            console.log("Firebase token: ", user.accessToken);
+            console.log("user Context: ", userContext);
+
+            setSession(
+              {
+                user: {
+                  name: user.displayName,
+                  email: user.email,
+                  image: user.photoURL,
+                  token: user.accessToken
+                }
+            }
+          )
+        }
+    })
+
+  signInWithPopup(auth, provider)
+  .then((result) => {
+      // This gives you a Google Access Token. You can use it to access the Google API.
+      const credential = GoogleAuthProvider.credentialFromResult(result);
+      if (credential !== null) {
+        <Alert severity="info">This is an info Alert.</Alert>
+        // const token = credential.accessToken;
+        // console.log(token);
+        // The signed-in user info.
+        const user = result.user;
+        // setMessage(`User ${user.displayName} successfuly logged in`);
+        // console.log(credential);
+        // setAlert(true);
+        setSession({
+          user: {
+            name: user.displayName,
+            email: user.email,
+            image: user.photoURL,
+          }
+        });
+      }
+
+    }).catch((error) => {
+      // Handle Errors here.
+      const errorCode = error.code;
+      const errorMessage = error.message;
+      // The email of the user's account used.
+      const email = error.customData.email;
+      // The AuthCredential type that was used.
+      const credential = GoogleAuthProvider.credentialFromError(error);
+      // ...
+  });
+}
+
+function DemoPageContent(props: any) {
   return (
     <>
       <CssBaseline />
       <Container maxWidth={false} disableGutters style={{
         display: 'flex',
         flexWrap: 'wrap',
+        
       }}>
         <AwesomeCardList/>
       </Container>
@@ -115,11 +171,18 @@ function DemoPageContent({ pathname }: { pathname: string }) {
 }
 
 export default function App() {
-  const [pathname, setPathname] = React.useState('/dashboard');
-  const [alert, setAlert] = React.useState(false);
-  const [message, setMessage] = React.useState("OK");
-  
-  const router = React.useMemo<Router>(() => {
+  const [pathname, setPathname] = useState('/dashboard');
+  const [alert, setAlert] = useState(false);
+  const [message, setMessage] = useState("OK");
+  const [session, setSession] = useState<Session | null>(null);
+
+  let [linkList, setLinkList] = useState([]);
+
+
+  let userContext = getUserContext();
+  console.log("=====> ", userContext);
+
+  const router = useMemo<Router>(() => {
     return {
       pathname,
       searchParams: new URLSearchParams(),
@@ -127,19 +190,21 @@ export default function App() {
     };
   }, [pathname]);
   
-  const [session, setSession] = React.useState<Session | null>(null);
   const authentication = React.useMemo(() => {
     return {
       signIn: async () => {
-        login(setSession, setAlert, setMessage);
+        console.log("app->dashboard->signin")
+        await login(setSession, setAlert, setMessage, userContext);
       },
       signOut: () => {
-        setSession(null);
+        // setSession(null);
+        console.log("app->dashboard->signout");
       },
     };
   }, []);
 
   return (
+    <ContextProvider>
       <AppProvider
         navigation={NAVIGATION}
         router={router}
@@ -158,10 +223,11 @@ export default function App() {
           }}
         >
           <DemoPageContent 
-            pathname={pathname} />
+            session={session} />
         </DashboardLayout>
         <div>
-      <Snackbar open={open} autoHideDuration={6000}>
+      {/* <Snackbar open={open} autoHideDuration={6000}> */}
+      <Snackbar autoHideDuration={6000}>
         <Alert
           // onClose={handleClose}
           severity="success"
@@ -171,7 +237,8 @@ export default function App() {
           { message }
         </Alert>
       </Snackbar>
-    </div>
+      </div>
       </AppProvider>
+    </ContextProvider>
   );
 }
