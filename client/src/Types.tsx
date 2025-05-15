@@ -1,4 +1,14 @@
-export class AwesomeSession {
+import type { Session } from "@toolpad/core";
+
+export class AwesomeSession implements Session {
+    user?: {
+        id?: string | null;
+        name?: string | null;
+        image?: string | null;
+        email?: string | null;
+        token?: string | null;
+    };
+
     name!: string;
     email!: string;
     image!: string;

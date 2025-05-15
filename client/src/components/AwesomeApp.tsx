@@ -127,6 +127,13 @@ const login = () => {
       newSession.image = user.photoURL || "";
       newSession.googleToken = credential.accessToken || "";
       newSession.backendToken = user.stsTokenManager.accessToken;
+      
+      newSession.user = {};
+      newSession.user.id = user.displayName;
+      newSession.user.name = user.displayName || "";
+      newSession.user.image = user.photoURL || "";
+      newSession.user.email = user.email || "";
+      newSession.user.token = credential.accessToken || "";
 
       console.log("user Context: ", newSession);
 
@@ -146,14 +153,12 @@ const router = useMemo<Router>(() => {
 
 
 const authentication = React.useMemo(() => {
-
   return {
     signIn: async () => {
       await login();
     },
     signOut: () => {
-      // setSession(null);
-      console.log("app->dashboard->signout");
+      setAwesomeSession(new AwesomeSession());
     },
   };
 }, []);
@@ -164,7 +169,7 @@ const authentication = React.useMemo(() => {
         router={router}
         theme={demoTheme}
         authentication={authentication}
-        // session={awesomeSession}
+        session={awesomeSession}
         branding={{
         logo: <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/awesome/awesome.png" alt="Awezome List Logo" />,
         title: 'Awesome List Portal'

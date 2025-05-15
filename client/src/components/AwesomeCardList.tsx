@@ -6,7 +6,6 @@ export default function CardList() {
     const {linkList, setLinkList, refreshLinkList, searchString, awesomeSession}  = useContext(LinkContext);
 
     useEffect(() => {
-        console.log("loading all links");
         if (!awesomeSession) { console.log("NO SESSION !"); return }
 
         fetch(`http://127.0.0.1:3000/links?search=${searchString}`, {
@@ -16,12 +15,11 @@ export default function CardList() {
             }
         })
         .then( (response) => {
-            console.log("status code is: ", response.status);
-            // if (response.status === 200) {
+            if (response.status === 200) {
                 return response.json();
-            // } else {
-            //     return [];
-            // }
+            } else {
+                return [];
+            }
         })
         .then( (payload) => {
             setLinkList(payload);
