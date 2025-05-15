@@ -16,7 +16,7 @@ import Container from '@mui/material/Container';
 import CssBaseline from '@mui/material/CssBaseline';
 import { useMemo, useState } from 'react';
 import { getAuth, GoogleAuthProvider, signInWithPopup, type User } from "firebase/auth";
-import { ContextProvider, getUserContext } from "./ContextProvider.tsx";
+import { ContextProvider } from "./ContextProvider.tsx";
 import firebaseConfig from "../firebaseconfig";
 import { initializeApp } from 'firebase/app';
 import type { UserSession } from './Types.tsx';
@@ -176,12 +176,6 @@ export default function App() {
   const [message, setMessage] = useState("OK");
   const [session, setSession] = useState<Session | null>(null);
 
-  let [linkList, setLinkList] = useState([]);
-
-
-  let userContext = getUserContext();
-  console.log("=====> ", userContext);
-
   const router = useMemo<Router>(() => {
     return {
       pathname,
@@ -194,7 +188,7 @@ export default function App() {
     return {
       signIn: async () => {
         console.log("app->dashboard->signin")
-        await login(setSession, setAlert, setMessage, userContext);
+        // await login(setSession, setAlert, setMessage, userContext);
       },
       signOut: () => {
         // setSession(null);

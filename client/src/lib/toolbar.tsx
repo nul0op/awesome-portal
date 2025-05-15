@@ -1,21 +1,17 @@
 import { Stack, Tooltip, IconButton, TextField } from "@mui/material";
 import { ThemeSwitcher } from "@toolpad/core";
 import SearchIcon from '@mui/icons-material/Search';
-import { ContextProvider } from "../ContextProvider";
-// import { getLinkContext, getUserContext } from "../ContextProvider";
+import { LinkContext } from "../ContextProvider";
+import { useContext } from "react";
 
 function ToolbarActionsSearch() {
 
+    // const {linkList, setLinkList}  = useContext(LinkContext);
+    const {linkList, setLinkList, refreshLinkList, setRefreshLinkList}  = useContext(LinkContext);
+
     let searchOnChangeHandler = () => {
-      console.log("clicking on search !");
-
-      // let userContext = getUserContext();
-      // let { linkList, setLinkList } = getLinkContext();
-
-      let userContext = ContextProvider;
-      // let { LinkList, setLinkList } = ContextProvider.userContext;
-
-      // console.log(userContext.accessToken);
+        console.log("clicking on search !");
+        refreshLinkList === true ? setRefreshLinkList(false) : setRefreshLinkList(true);
     }
 
     return (
@@ -28,21 +24,23 @@ function ToolbarActionsSearch() {
               sx={{
                 display: { xs: 'inline', md: 'none' },
               }}
-              onClick={ searchOnChangeHandler }
             >
               <SearchIcon />
             </IconButton>
           </div>
         </Tooltip>
         <TextField
-          // onChange={ () => { searchOnChangeHandler() } }
+          onChange={ () => { searchOnChangeHandler() } }
           label="Search"
           variant="outlined"
           size="small"
           slotProps={{
             input: {
               endAdornment: (
-                <IconButton type="button" aria-label="search" size="small">
+                <IconButton 
+                  // FIXME: do not work if mobile view port
+                  onClick={ searchOnChangeHandler }
+                  type="button" aria-label="search" size="small">
                   <SearchIcon />
                 </IconButton>
               ),
