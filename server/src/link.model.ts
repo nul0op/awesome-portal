@@ -1,7 +1,7 @@
 import awesomedb from "./awesomedb";
 import { AwesomeLink } from "./models/Awesome";
 
-const getAllLink = async () => {
+const getAllLink = async (filter:string) => {
     let links = await awesomedb('link').select({ 
         externalId: "external_id",
         name: "name",
@@ -9,8 +9,14 @@ const getAllLink = async () => {
         originUrl: "origin_url",
         subscribersCount: "subscribers_count",
         watchersCount: "watchers_count"
-    });
 
+    }).modify(function(queryBuilder) {
+        if (filter && filter.length > 0) {
+            queryBuilder.where("name", "like", `%${filter}%`);
+            queryBuilder.orWhere("description", "like", `%${filter}%`);
+        }
+    })
+        
     return links;
 }
 

@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 
 // app.get('/links', authenticateToken, async (req, res) => {
 app.get('/links', async (req, res) => {
-  res.send(await getAllLink());
+  res.send(await getAllLink(req.query["search"].toString()));
 });
 
 app.listen(port, async () => {

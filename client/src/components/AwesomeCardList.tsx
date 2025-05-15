@@ -5,9 +5,7 @@ import AwesomeCard from "./AwesomeCard";
 // import { getLinkContext, getUserContext } from "../ContextProvider";
 
 export default function CardList() {
-    
-    const context = useContext(LinkContext);
-    const {linkList, setLinkList, refreshLinkList, setRefreshLinkList}  = useContext(LinkContext);
+    const {linkList, setLinkList, refreshLinkList, searchString}  = useContext(LinkContext);
     
     // let userContext = getUserContext();
     // let userContext = useContext(UserContext);
@@ -15,7 +13,7 @@ export default function CardList() {
     useEffect(() => {
         console.log("loading all links");
 
-        fetch("http://127.0.0.1:3000/links", {
+        fetch(`http://127.0.0.1:3000/links?search=${searchString}`, {
             method: "GET",
             headers: {
                 // "Authorization": `Bearer ${userContext.accessToken}`

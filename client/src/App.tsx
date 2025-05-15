@@ -15,7 +15,7 @@ import AwesomeCardList from './components/AwesomeCardList';
 import Container from '@mui/material/Container';
 import CssBaseline from '@mui/material/CssBaseline';
 import { useMemo, useState } from 'react';
-import { getAuth, GoogleAuthProvider, signInWithPopup, type User } from "firebase/auth";
+import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { ContextProvider } from "./ContextProvider.tsx";
 import firebaseConfig from "../firebaseconfig";
 import { initializeApp } from 'firebase/app';

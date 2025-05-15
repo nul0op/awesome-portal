@@ -6,12 +6,16 @@ import { useContext } from "react";
 
 function ToolbarActionsSearch() {
 
-    // const {linkList, setLinkList}  = useContext(LinkContext);
-    const {linkList, setLinkList, refreshLinkList, setRefreshLinkList}  = useContext(LinkContext);
+    const {refreshLinkList, setRefreshLinkList, setSearchString}  = useContext(LinkContext);
 
-    let searchOnChangeHandler = () => {
+    let searchOnChangeHandler = (e: any) => {
         console.log("clicking on search !");
-        refreshLinkList === true ? setRefreshLinkList(false) : setRefreshLinkList(true);
+        refreshLinkList === true 
+          ? setRefreshLinkList(false) 
+          : setRefreshLinkList(true);
+        
+        console.log("search string: ", e.target.value);
+        setSearchString(e.target.value);
     }
 
     return (
@@ -30,7 +34,7 @@ function ToolbarActionsSearch() {
           </div>
         </Tooltip>
         <TextField
-          onChange={ () => { searchOnChangeHandler() } }
+          onChange={ searchOnChangeHandler }
           label="Search"
           variant="outlined"
           size="small"
