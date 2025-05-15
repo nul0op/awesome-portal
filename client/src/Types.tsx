@@ -1,19 +1,9 @@
-export class UserSession {
-    private _username: string|null = null;
-    public get username(): string|null {
-        return this._username;
-    }
-    public set username(value: string) {
-        this._username = value;
-    }
-
-    private _accessToken: string|null = null;
-    public get accessToken(): string|null {
-        return this._accessToken;
-    }
-    public set accessToken(value: string) {
-        this._accessToken = value;
-    }
+export class AwesomeSession {
+    name!: string;
+    email!: string;
+    image!: string;
+    googleToken!: string;
+    backendToken!: string;
 }
 
 export interface Link {

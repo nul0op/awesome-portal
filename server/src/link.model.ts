@@ -12,8 +12,8 @@ const getAllLink = async (filter:string) => {
 
     }).modify(function(queryBuilder) {
         if (filter && filter.length > 0) {
-            queryBuilder.where("name", "like", `%${filter}%`);
-            queryBuilder.orWhere("description", "like", `%${filter}%`);
+            queryBuilder.where("name", "ilike", `%${filter}%`);
+            queryBuilder.orWhere("description", "ilike", `%${filter}%`);
         }
     })
         

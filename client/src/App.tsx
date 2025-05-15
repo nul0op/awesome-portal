@@ -14,12 +14,13 @@ import Alert from '@mui/material/Alert';
 import AwesomeCardList from './components/AwesomeCardList';
 import Container from '@mui/material/Container';
 import CssBaseline from '@mui/material/CssBaseline';
-import { useMemo, useState } from 'react';
+import { useContext, useMemo, useState } from 'react';
 import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
-import { ContextProvider } from "./ContextProvider.tsx";
+import { ContextProvider, LinkContext } from "./ContextProvider.tsx";
 import firebaseConfig from "../firebaseconfig";
 import { initializeApp } from 'firebase/app';
-import type { UserSession } from './Types.tsx';
+import { useSession } from '@toolpad/core/useSession';
+import { AwesomeSession } from './Types.tsx';
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
@@ -45,40 +46,40 @@ const NAVIGATION: Navigation = [
     title: 'Dashboard',
     icon: <DashboardIcon />,
   },
-  {
-    segment: 'orders',
-    title: 'Orders',
-    icon: <ShoppingCartIcon />,
-  },
-  {
-    kind: 'divider',
-  },
-  {
-    kind: 'header',
-    title: 'Analytics',
-  },
-  {
-    segment: 'reports',
-    title: 'Reports',
-    icon: <BarChartIcon />,
-    children: [
-      {
-        segment: 'sales',
-        title: 'Sales',
-        icon: <DescriptionIcon />,
-      },
-      {
-        segment: 'traffic',
-        title: 'Traffic',
-        icon: <DescriptionIcon />,
-      },
-    ],
-  },
-  {
-    segment: 'integrations',
-    title: 'Integrations',
-    icon: <LayersIcon />,
-  },
+  // {
+  //   segment: 'orders',
+  //   title: 'Orders',
+  //   icon: <ShoppingCartIcon />,
+  // },
+  // {
+  //   kind: 'divider',
+  // },
+  // {
+  //   kind: 'header',
+  //   title: 'Analytics',
+  // },
+  // {
+  //   segment: 'reports',
+  //   title: 'Reports',
+  //   icon: <BarChartIcon />,
+  //   children: [
+  //     {
+  //       segment: 'sales',
+  //       title: 'Sales',
+  //       icon: <DescriptionIcon />,
+  //     },
+  //     {
+  //       segment: 'traffic',
+  //       title: 'Traffic',
+  //       icon: <DescriptionIcon />,
+  //     },
+  //   ],
+  // },
+  // {
+  //   segment: 'integrations',
+  //   title: 'Integrations',
+  //   icon: <LayersIcon />,
+  // },
 ];
 
 const demoTheme = createTheme({
@@ -96,64 +97,6 @@ const demoTheme = createTheme({
     },
   },
 });
-
-const login = async (setSession: any, setAlert: Function, setMessage: Function, userContext: UserSession) => {
-    console.log("inside login");
-
-    auth.onAuthStateChanged((user) => {
-        if (user) {
-            userContext.accessToken = user.accessToken;
-
-            // FIXME: why does it warns me on this ?
-            console.log("Firebase token: ", user.accessToken);
-            console.log("user Context: ", userContext);
-
-            setSession(
-              {
-                user: {
-                  name: user.displayName,
-                  email: user.email,
-                  image: user.photoURL,
-                  token: user.accessToken
-                }
-            }
-          )
-        }
-    })
-
-  signInWithPopup(auth, provider)
-  .then((result) => {
-      // This gives you a Google Access Token. You can use it to access the Google API.
-      const credential = GoogleAuthProvider.credentialFromResult(result);
-      if (credential !== null) {
-        <Alert severity="info">This is an info Alert.</Alert>
-        // const token = credential.accessToken;
-        // console.log(token);
-        // The signed-in user info.
-        const user = result.user;
-        // setMessage(`User ${user.displayName} successfuly logged in`);
-        // console.log(credential);
-        // setAlert(true);
-        setSession({
-          user: {
-            name: user.displayName,
-            email: user.email,
-            image: user.photoURL,
-          }
-        });
-      }
-
-    }).catch((error) => {
-      // Handle Errors here.
-      const errorCode = error.code;
-      const errorMessage = error.message;
-      // The email of the user's account used.
-      const email = error.customData.email;
-      // The AuthCredential type that was used.
-      const credential = GoogleAuthProvider.credentialFromError(error);
-      // ...
-  });
-}
 
 function DemoPageContent(props: any) {
   return (
@@ -174,7 +117,62 @@ export default function App() {
   const [pathname, setPathname] = useState('/dashboard');
   const [alert, setAlert] = useState(false);
   const [message, setMessage] = useState("OK");
-  const [session, setSession] = useState<Session | null>(null);
+  // const [session, setSession] = useState<Session | null>(null);
+
+
+
+  // ---------------------------------------------------------
+  const {awesomeSession, setAwesomeSession} = useContext(LinkContext);
+
+  // auth.onAuthStateChanged((user) => {
+  //   if (user) {
+  //       let newSession = new AwesomeSession();
+  //       newSession.name = user.displayName || "";
+  //       newSession.email = user.email || "";
+  //       newSession.image = user.photoURL || "";
+  //       // newSession.googleToken = user.token;
+  //       // newSession.backendToken = user.stsTokenManager.accessToken;
+  //       setAwesomeSession(newSession);
+
+  //       console.log("STATE CHANGED: ", newSession);
+  //   }
+  // });
+
+  const login = () => {
+    console.log("app->dashboard->login()");
+
+    signInWithPopup(auth, provider)
+    .then((result) => {
+      const credential = GoogleAuthProvider.credentialFromResult(result);
+      if (credential !== null) {
+        <Alert severity="info">This is an info Alert.</Alert>
+        const user = result.user;
+        // setMessage(`User ${user.displayName} successfuly logged in`);
+        // console.log(credential);
+        // setAlert(true);
+        // setSession({
+        //   user: {
+        //     name: user.displayName,
+        //     email: user.email,
+        //     image: user.photoURL,
+        //   }
+        // });
+
+        let newSession = new AwesomeSession();
+        newSession.name = user.displayName || "";
+        newSession.email = user.email || "";
+        newSession.image = user.photoURL || "";
+        newSession.googleToken = credential.accessToken || "";
+        newSession.backendToken = user.stsTokenManager.accessToken;
+
+        // FIXME: why does it warns me on this ?
+        console.log("user Context: ", newSession);
+
+        setAwesomeSession(newSession);
+      }
+    });
+  }
+  // ---------------------------------------------------------
 
   const router = useMemo<Router>(() => {
     return {
@@ -183,12 +181,13 @@ export default function App() {
       navigate: (path) => setPathname(String(path)),
     };
   }, [pathname]);
+
   
   const authentication = React.useMemo(() => {
+
     return {
       signIn: async () => {
-        console.log("app->dashboard->signin")
-        // await login(setSession, setAlert, setMessage, userContext);
+        await login();
       },
       signOut: () => {
         // setSession(null);
@@ -204,7 +203,7 @@ export default function App() {
         router={router}
         theme={demoTheme}
         authentication={authentication}
-        session={session}
+        // session={awesomeSession}
         branding={{
           logo: <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/awesome/awesome.png" alt="Awezome List Logo" />,
           title: 'Awesome List Portal'
@@ -217,7 +216,7 @@ export default function App() {
           }}
         >
           <DemoPageContent 
-            session={session} />
+            session={awesomeSession} />
         </DashboardLayout>
         <div>
       {/* <Snackbar open={open} autoHideDuration={6000}> */}

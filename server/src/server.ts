@@ -19,8 +19,8 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
-// app.get('/links', authenticateToken, async (req, res) => {
-app.get('/links', async (req, res) => {
+// app.get('/links', async (req, res) => {
+app.get('/links', authenticateToken, async (req, res) => {
   res.send(await getAllLink(req.query["search"].toString()));
 });
 

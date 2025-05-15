@@ -1,7 +1,5 @@
-import { createContext, useContext, useState } from "react";
-import { UserSession, type Link } from "./Types.tsx";
-
-let myUser = new UserSession();
+import { createContext, useState } from "react";
+import { type AwesomeSession, type Link } from "./Types.tsx";
 
 interface linkObject {
     linkList: Link[],
@@ -12,31 +10,33 @@ interface linkObject {
 
     searchString: string,
     setSearchString: React.Dispatch<React.SetStateAction<string>>
+
+    awesomeSession: AwesomeSession | null;
+    setAwesomeSession: (session: AwesomeSession) => void;
+    loading: boolean;
 }
 
-export const UserContext = createContext(myUser);
-export const LinkContext = createContext<linkObject>(
-    {
-        linkList: [], setLinkList: () => {},
-        refreshLinkList: false, setRefreshLinkList: () => {},
-        searchString: "", setSearchString: () => {}
+export const LinkContext = createContext<linkObject>({
+        linkList: [], setLinkList: () => {}, refreshLinkList: false, setRefreshLinkList: () => {},
+        searchString: "", setSearchString: () => {},
+        awesomeSession: null, setAwesomeSession: () => {}, loading: true
     }
 );
 
 export function ContextProvider({children}: any) {
-    let [linkList, setLinkList] = useState<any[]>([]);
-    let [refreshLinkList, setRefreshLinkList] = useState<boolean>(false);
-    let [searchString, setSearchString] = useState<string>("");
+    const [linkList, setLinkList] = useState<any[]>([]);
+    const [refreshLinkList, setRefreshLinkList] = useState<boolean>(false);
+    const [searchString, setSearchString] = useState<string>("");
+    const [awesomeSession, setAwesomeSession] = useState<AwesomeSession | null>(null);
 
     return (
-        <UserContext.Provider value={myUser}>
-            <LinkContext.Provider value={{
-                linkList, setLinkList, 
-                refreshLinkList, setRefreshLinkList,
-                searchString, setSearchString
-                }}>
-                    {children}
-            </LinkContext.Provider>
-        </UserContext.Provider>
-    )
+        <LinkContext.Provider value={{
+            linkList, setLinkList, 
+            refreshLinkList, setRefreshLinkList,
+            searchString, setSearchString,
+            awesomeSession: awesomeSession, setAwesomeSession: setAwesomeSession, loading: false
+            }}>
+                {children}
+        </LinkContext.Provider>
+)
 }
