@@ -30,11 +30,11 @@ export function ContextProvider({children}: any) {
     const [awesomeSession, setAwesomeSession] = useState<AwesomeSession | null>(null);
 
     return (
-        <LinkContext.Provider value={{
+        <LinkContext.Provider value={{            
             linkList, setLinkList, 
             refreshLinkList, setRefreshLinkList,
             searchString, setSearchString,
-            awesomeSession: awesomeSession, setAwesomeSession: setAwesomeSession, loading: false
+            awesomeSession, setAwesomeSession, loading: false
             }}>
                 {children}
         </LinkContext.Provider>

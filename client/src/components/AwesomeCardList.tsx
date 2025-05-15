@@ -1,8 +1,6 @@
-import { useContext, useEffect, useState, type Dispatch, type SetStateAction } from "react";
+import { useContext, useEffect } from "react";
 import { LinkContext } from "../ContextProvider";
-// import { Link } from "@mui/material";
 import AwesomeCard from "./AwesomeCard";
-import { AwesomeSession } from "../Types";
 
 export default function CardList() {
     const {linkList, setLinkList, refreshLinkList, searchString, awesomeSession}  = useContext(LinkContext);
@@ -28,7 +26,7 @@ export default function CardList() {
         .then( (payload) => {
             setLinkList(payload);
         })
-    }, [refreshLinkList]);
+    }, [refreshLinkList, awesomeSession]);
 
     return (
         linkList.map( (link) => <AwesomeCard link={link}/> )
