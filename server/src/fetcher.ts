@@ -1,12 +1,25 @@
 import marked from 'marked-ast';
 import dotenv from 'dotenv';
 import { AwesomeLink } from './models/Awesome';
-import { ERROR_AWL_NOT_GITHUB, ERROR_AWL_NO_INDEX_PAGE } from './models/Error';
+// import { ERROR_AWL_NOT_GITHUB, ERROR_AWL_NO_INDEX_PAGE } from './models/Error';
 import { AW_ROOT } from './models/global';
 import { saveLink } from './link.model';
 
-dotenv.config();
+class ERROR_AWL_NOT_GITHUB extends Error {
+    constructor(message) {
+      super(message);
+      this.name = 'The requested URL is not hosted in github';
+    }
+  }
+  
+  class ERROR_AWL_NO_INDEX_PAGE extends Error {
+    constructor(message) {
+      super(message);
+      this.name = 'The requested repos has no index page (README.md, ...)';
+    }
+  }
 
+dotenv.config();
 
 const AW_BADGE_IS_PRESENT_LIMIT=1*1024;
 const AW_BADGE_REGEX='*wesome*';
