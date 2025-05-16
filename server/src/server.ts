@@ -2,25 +2,18 @@ import express from 'express';
 import { getAllLink, saveLink } from './link.model';
 import cors from 'cors';
 import authenticateToken from '../middleware/authenticateToken';
-
-// import { fileURLToPath } from 'url';
+import { saveUser } from './user.model';
 
 const app = express();
 const port = 3000;
 
 app.use(express.json());
 app.use(cors());
-// app.use(express.static(path.join(__dirname, '../client/dist')));
+app.use(express.static('../client/dist'));
 
-// const __filename = fileURLToPath(import.meta.url);
-// const __dirname = path.dirname(__filename);
-
-app.get('/', (req, res) => {
-  res.send('Hello World!');
-});
-
-// app.get('/links', async (req, res) => {
 app.get('/links', authenticateToken, async (req, res) => {
+  saveUser(req);
+
   res.send(await getAllLink(req.query["search"].toString()));
 });
 

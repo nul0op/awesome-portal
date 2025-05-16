@@ -1,4 +1,4 @@
-import { CardContent, Typography, CardActions, Button, Box, Card, Link, Paper } from "@mui/material";
+import { CardContent, Typography, CardActions, Button, Card, Link, Paper } from "@mui/material";
 
 export default function AwesomeCard(props: any) {
     return (<>

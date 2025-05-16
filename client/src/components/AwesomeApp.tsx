@@ -1,4 +1,4 @@
-import { CardContent, Typography, CardActions, Button, Box, Card, Link, Paper, Alert, Snackbar, Container, createTheme, CssBaseline } from "@mui/material";
+import { Alert, Snackbar, Container, createTheme, CssBaseline } from "@mui/material";
 import { AppProvider, DashboardLayout, Account, type Navigation, type Router } from "@toolpad/core";
 import { ToolbarActionsSearch } from "../lib/toolbar";
 import { initializeApp } from "firebase/app";
@@ -7,25 +7,22 @@ import React, { useState, useContext, useMemo } from "react";
 import { LinkContext } from "../ContextProvider";
 import { AwesomeSession } from "../Types";
 import AwesomeCardList from "./AwesomeCardList";
-import firebaseConfig from "../../firebaseconfig";
 import DashboardIcon from '@mui/icons-material/Dashboard';
+
+const firebaseConfig = {
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGE_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID
+};
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 auth.languageCode = 'en';
 const provider = new GoogleAuthProvider();
 
-
-
-let ITEMS = [
-    { id: 'tree-view-community', label: 'TEST' },
-    { id: 'tree-view-community2', label: 'TEST2' },
-    { id: 'tree-view-community3', label: 'TEST3' },
-    { id: 'tree-view-community4', label: 'TEST4' },
-    { id: 'tree-view-community5', label: 'TEST5' },
-    { id: 'tree-view-community6', label: 'TEST6' },
-  ];
-  
   const NAVIGATION: Navigation = [
     {
       kind: 'header',
@@ -89,6 +86,7 @@ let ITEMS = [
   });
   
   function DemoPageContent(props: any) {
+    console.log(props);
     return (
       <>
         <CssBaseline />
@@ -103,11 +101,9 @@ let ITEMS = [
     );
   }
 
-export default function AwesomeCard(props: any) {
+export default function AwesomeCard() {
 
-      const [pathname, setPathname] = useState('/dashboard');
-      const [alert, setAlert] = useState(false);
-      const [message, setMessage] = useState("OK");
+    const [pathname, setPathname] = useState('/dashboard');
       
 // ---------------------------------------------------------
 const {awesomeSession, setAwesomeSession} = useContext(LinkContext);
@@ -116,7 +112,7 @@ const login = () => {
   console.log("app->dashboard->login()");
 
   signInWithPopup(auth, provider)
-  .then((result) => {
+  .then(async (result) => {
     const credential = GoogleAuthProvider.credentialFromResult(result);
     if (credential !== null) {
       const user = result.user;
@@ -126,7 +122,8 @@ const login = () => {
       newSession.email = user.email || "";
       newSession.image = user.photoURL || "";
       newSession.googleToken = credential.accessToken || "";
-      newSession.backendToken = user.stsTokenManager.accessToken;
+      // newSession.backendToken = user.stsTokenManager.accessToken;
+      newSession.backendToken = await user.getIdToken();
       
       newSession.user = {};
       newSession.user.id = user.displayName;
@@ -193,7 +190,7 @@ const authentication = React.useMemo(() => {
         variant="filled"
         sx={{ width: '100%' }}
         >
-        { message }
+        { "xx" }
         </Alert>
         </Snackbar>
         </div>
