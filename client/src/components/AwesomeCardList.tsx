@@ -8,7 +8,7 @@ export default function CardList() {
     useEffect(() => {
         if (!awesomeSession) { console.log("NO SESSION !"); return }
 
-        fetch(`http://${import.meta.env.VITE_BACKEND_URL}/links?search=${searchString}`, {
+        fetch(`${import.meta.env.VITE_BACKEND_URL}/links?search=${searchString}`, {
             method: "GET",
             headers: {
                 "Authorization": `Bearer ${awesomeSession!.backendToken}`
