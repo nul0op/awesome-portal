@@ -72,6 +72,26 @@ class AwesomeLink {
     public set level(value: number) {
         this._level = value;
     }
+
+
+    private _topics: string = "";
+    public get topics(): string {
+        return this._topics;
+    }
+
+    public set topics(value: string) {
+        this._topics = value;
+    }
+
+
+    private _updated: number = 0;
+    public get updated(): number {
+        return this._updated;
+    }
+
+    public set updated(value: number) {
+        this._updated = value;
+    }
 }
 
 // export type {

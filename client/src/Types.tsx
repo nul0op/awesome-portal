@@ -22,5 +22,7 @@ export interface Link {
     description: "description",
     originUrl: "origin_url",
     subscribersCount: "subscribers_count",
-    watchersCount: "watchers_count"
+    watchersCount: "watchers_count",
+    updated: "updated",
+    topics: "topics"
 }

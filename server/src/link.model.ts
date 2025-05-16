@@ -8,12 +8,14 @@ const getAllLink = async (filter:string) => {
         description: "description",
         originUrl: "origin_url",
         subscribersCount: "subscribers_count",
-        watchersCount: "watchers_count"
-
+        watchersCount: "watchers_count",
+        topics: "topics",
+        updated: "updated"
     }).modify(function(queryBuilder) {
         if (filter && filter.length > 0) {
             queryBuilder.where("name", "ilike", `%${filter}%`);
             queryBuilder.orWhere("description", "ilike", `%${filter}%`);
+            queryBuilder.orWhere("topics", "ilike", `%${filter}%`);
         }
     })
         
@@ -29,7 +31,9 @@ const saveLink = async (link: AwesomeLink) => {
         description: link.description,
         origin_url: link.originUrl,
         subscribers_count: link.subscribersCount,
-        watchers_count: link.watchersCount
+        watchers_count: link.watchersCount,
+        topics: link.topics,
+        updated: link.updated
     });
 }
 

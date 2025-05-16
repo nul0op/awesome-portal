@@ -112,6 +112,9 @@ let getProjectMeta = async (url: string): Promise<AwesomeLink> => {
         projectMeta.watchersCount = data.watchers_count || 0
         projectMeta.cloneUrl = data.clone_url || "";
         projectMeta.originUrl = url;
+        // projectMeta.updated = new Date(data.updated_at).getTime()/1000;
+        projectMeta.updated = data.updated_at.toString();
+        projectMeta.topics = data.topics.join(' ');
     }
 
     // console.debug("  found metadata: ", projectMeta);

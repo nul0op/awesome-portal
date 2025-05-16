@@ -25,6 +25,10 @@ export default function AwesomeCard(props: any) {
                         {props.link.description}
                         <br />
                         {props.link.subscribersCount} / {props.link.watchersCount}
+                        <br />
+                        {props.link.topics}
+                        <br />
+                        {props.link.updated}
                     </Typography>
                 </CardContent>
                 <CardActions>
