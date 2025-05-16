@@ -108,7 +108,7 @@ let getProjectMeta = async (url: string): Promise<AwesomeLink> => {
         let data = await response.json();
         projectMeta.name = data.name || "";
         projectMeta.description = data.description || "";
-        projectMeta.subscribersCount = data.subscriber_count || 0;
+        projectMeta.subscribersCount = data.subscribers_count || 0;
         projectMeta.watchersCount = data.watchers_count || 0
         projectMeta.cloneUrl = data.clone_url || "";
         projectMeta.originUrl = url;

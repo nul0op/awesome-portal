@@ -25,7 +25,7 @@ app.get('/links', authenticateToken, async (req, res) => {
   res.send(await getAllLink(req.query["search"].toString()));
 });
 
-app.post('/index/restart', authenticateToken, async (req, res) => {
+app.post('/index/restart', async (req, res) => {
   indexingState.paused = false;
 
   res.status(200);
@@ -33,7 +33,7 @@ app.post('/index/restart', authenticateToken, async (req, res) => {
   await scanAW(AW_ROOT, 0);
 });
 
-app.post('/index/pause', authenticateToken, async (req, res) => {
+app.post('/index/pause', async (req, res) => {
   indexingState.paused = true;
 
   res.status(200);
@@ -41,7 +41,7 @@ app.post('/index/pause', authenticateToken, async (req, res) => {
   await scanAW(AW_ROOT, 0);
 });
 
-app.get('/index/status', authenticateToken, async (req, res) => {
+app.get('/index/status', async (req, res) => {
   res.status(200);
   let rows = await getAllLink("");
 
