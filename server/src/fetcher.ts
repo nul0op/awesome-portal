@@ -4,6 +4,7 @@ import { AwesomeLink } from './models/Awesome';
 // import { ERROR_AWL_NOT_GITHUB, ERROR_AWL_NO_INDEX_PAGE } from './models/Error';
 import { AW_ROOT } from './models/global';
 import { saveLink } from './link.model';
+import { indexingState } from './server';
 
 class ERROR_AWL_NOT_GITHUB extends Error {
     constructor(message) {
@@ -215,7 +216,13 @@ let ident = (level: number) => {
 // allong the way, we try to gather as much informations as we can on the content hosted
 //
 let scanAW = async (repo: string, depth: number) => {
+    while (indexingState.paused) {
+        console.debug("index is paused");
+        await sleep(5000);
+    };
+
     console.debug(`[${depth}]: scanning git repository: ${repo}`);
+
     let projectMeta = null;
 
     try {
@@ -304,6 +311,7 @@ let scanAW = async (repo: string, depth: number) => {
     let awesomeLinks = recurseAST(ast, 0, [], []);
 
     console.log(`  found ${awesomeLinks.length} links`);
+    // indexingState.numberOfEntriesIndexed = awesomeLinks.length;
 
     let max = 99;
     let i = 0;
